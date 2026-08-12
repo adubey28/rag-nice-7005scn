@@ -6,8 +6,9 @@ WHY THIS EXISTS
 Every chunk records `start_char`/`end_char` into its source document. Gold
 evidence in the evaluation dataset is stored as character spans, and retrieval
 relevance is span overlap. That is what makes retrieval metrics comparable
-between the fixed and semantic arms, whose chunk boundaries differ. CLAUDE.md
-states it plainly: any change that breaks span fidelity breaks the experiment.
+between the fixed and semantic arms, whose chunk boundaries differ. This is the
+project's central invariant: any change that breaks span fidelity breaks the
+experiment.
 
 `build_all.py` reports chunk counts and length statistics but does NOT verify
 offsets, so a build can look entirely healthy while the spans address the wrong

@@ -75,9 +75,8 @@ PKG_NAME = "rag-nice-submission"
 # (source, destination, required) - directories are copied wholesale.
 CODE_DIRS = [("src", "src"), ("scripts", "scripts"), ("tests", "tests")]
 
-DOCS = ["README.md", "EVIDENCE.md", "PROMPTS.md", "CLAUDE.md", "LOGBOOK.md",
-        "RESTORE_AND_VERIFY.md", "requirements.txt", "config.py",
-        ".env.example"]
+DOCS = ["README.md", "EVIDENCE.md", "LOGBOOK.md",
+        "requirements.txt", "config.py", ".env.example"]
 
 RESULT_FILES = ["summary.json", "analysis.json", "build_report.json"]
 

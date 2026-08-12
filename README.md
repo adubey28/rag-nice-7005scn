@@ -223,10 +223,7 @@ conditions, out of scope for a k=5 diagnostic. Expected, not an error — EVIDEN
 rag-nice/
 ├── config.py                    # single source of truth for every experimental variable
 ├── EVIDENCE.md                  # 38 sections: measured results, decisions, corrections
-├── PROMPTS.md                   # run sheet (partly superseded - see its banner)
-├── RESTORE_AND_VERIFY.md        # restore procedure (partly superseded - see its banner)
-├── CLAUDE.md                    # project rules for the AI coding assistant used
-├── LOGBOOK.md
+├── LOGBOOK.md                   # development journal
 ├── src/
 │   ├── ingest.py                # source -> cleaned text (+ SHA-256, furniture removal)
 │   ├── chunking.py              # fixed-size + semantic (p85) + merge_undersized
@@ -262,7 +259,6 @@ rag-nice/
 
 ## 6. Note on AI assistance
 
-This project was built with the assistance of an AI coding assistant, operating
-under the rules in `CLAUDE.md`. The research design, hypotheses, evaluation
-dataset and all experimental execution are the author's own. `EVIDENCE.md`
-records which decisions were made where, and by what evidence.
+An AI coding assistant was used during development. The research design,
+hypotheses, evaluation dataset and all experimental execution are the author's
+own. The full declaration is given in Section 7 of the project report.
