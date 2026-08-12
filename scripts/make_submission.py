@@ -540,9 +540,25 @@ def main() -> None:
     print(f"  zip      {zip_path}")
     print(f"  size     {zip_path.stat().st_size / 1_048_576:.1f} MB")
     print(f"  files    {counter['files']}")
-    print(f"  sha256   {digest[:32]}...")
-    print("\n  Record that SHA-256 in LOGBOOK.md - it identifies exactly which")
-    print("  build was submitted.")
+    # Print the digest IN FULL, split over two lines for legibility.
+    #
+    # This previously printed `digest[:32]` followed by an ellipsis, while the
+    # next line instructed the operator to record it as a SHA-256. A SHA-256 is
+    # 64 hex characters; anyone following that instruction recorded a half
+    # digest that looks like a valid MD5 and verifies nothing. That is exactly
+    # what happened in LOGBOOK.md on 12 Aug 2026. A tool must never truncate a
+    # value it is telling you to record. (Fixed 12 Aug 2026.)
+    print(f"  sha256   {digest[:32]}")
+    print(f"           {digest[32:]}")
+    print(f"\n  Record that 64-character SHA-256 in LOGBOOK.md - it identifies")
+    print("  exactly which build was submitted. It is also stored in full as")
+    print("  zip_sha256 in MANIFEST.json inside the package folder, and can be")
+    print("  recomputed at any time without rebuilding:")
+    print(f"    Get-FileHash \"{zip_path.name}\" -Algorithm SHA256")
+    print("\n  NOTE: MANIFEST.json is written to the package FOLDER after the zip")
+    print("  is sealed, so it is not inside the zip - a manifest cannot contain")
+    print("  the hash of an archive that contains the manifest. Folder and zip")
+    print("  therefore differ by exactly that one file, by design.")
     print("\n  For GitHub: push the CONTENTS of the folder above. Its .gitignore")
     print("  already excludes keys, the venv, and the copyrighted PDFs.")
     print()

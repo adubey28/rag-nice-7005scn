@@ -1,3 +1,38 @@
+> ## SUPERSEDED IN PART — read this before running anything (added 12 Aug 2026)
+>
+> This run sheet was written while the experiment was being built. The setup and
+> verification steps (R1–R6) remain correct. **Step R7 is now dangerous**, and
+> the sheet predates the LLM-judged context metrics entirely. Where this file
+> and `EVIDENCE.md` disagree, **`EVIDENCE.md` is authoritative.**
+>
+> ### R7 — DO NOT RUN `run_experiment.py --all`
+>
+> R7 instructs you to run `python scripts/run_experiment.py --all`. **Do not.**
+> That regenerates every answer. Gemini 3.x deprecated `temperature`, so
+> regeneration returns different answers, different faithfulness scores and
+> different results — replacing the experiment rather than reproducing it. Every
+> figure in `EVIDENCE.md` would cease to describe the artefact.
+>
+> There is also an integrity dimension: the results are already known and both
+> hypotheses are unsupported. Re-running after seeing that, then reporting
+> whichever numbers emerged, is not defensible. Report the run that was
+> pre-specified, scored once and audited.
+>
+> **`--score` is safe and idempotent.** It scores cached answers and never
+> regenerates. All scoring commands in this project used `--score`.
+>
+> ### Other corrections
+>
+> | In this file | Status as of 12 Aug 2026 |
+> |---|---|
+> | R7 expects 300 generations across 5 conditions | **420** across 7 (the sweep at k=3 and k=10 adds two) |
+> | No mention of context metrics | `--include-llm-context-metrics` scores `llm_context_precision` and `llm_context_recall`. Undefined for the baseline, which retrieves nothing, and excluded automatically. See EVIDENCE.md S31. |
+> | Setup extracts `rag-nice-final.zip` | The current archive is built by `scripts/make_submission.py`. The warning about never using `-Force` over an existing tree still applies and is still the reason a patch was silently reverted on 11 Aug. |
+> | `verify_install.py` marker list | Extended 12 Aug with three markers covering the ragas column mapping, the baseline exclusion and the `**cached` merge. Without them it passed on an unpatched file. See EVIDENCE.md S34. |
+>
+> R2's expected chunk figures (fixed 547 / mean 770.8; semantic 509 / mean 789.6)
+> are still correct and were reproduced on a clean clone on 12 Aug (S36).
+
 # Claude Code run sheet
 
 The clean, linear procedure for building and running this experiment from

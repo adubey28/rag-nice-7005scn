@@ -78,3 +78,13 @@ instruction to "record that SHA-256" yields a half-digest. The value above was
 computed with Get-FileHash directly against the zip. That earlier entry also
 described a build containing three superseded .bak files, since removed; this
 entry describes the shipped package.
+
+## Submission build 2026-08-12 (rev 3 - supersedes rev 2)
+sha256 b523cd84d064c922fb7f48879d716889228095f429100274e5f3c1f567716319
+Rebuilt after patching make_submission.py to print the full 64-character digest
+instead of 32 characters plus an ellipsis - the defect that produced the
+half-digest recorded in rev 1. Verified: the two printed lines concatenate to
+the Get-FileHash value. The digest changes on every rebuild because LOGBOOK.md
+and the packaging script are themselves inside the package; a recorded hash can
+never describe the build containing that record. The definitive digest will be
+taken once on 17 Aug 2026 when the files stop changing.
