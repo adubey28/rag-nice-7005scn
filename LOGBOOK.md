@@ -60,3 +60,21 @@ says may be requested.
 ### Risks logged this stage
 - [ ] Free-tier quota consumption per run (measure it — it sets the ceiling on the experiment)
 - [ ] Any package that failed to install and the workaround
+
+## Submission build 2026-08-12
+sha256 6e4ca4a0354fe51557258bf160d5b793 (rag-nice-submission.zip, 1645 files, 1.6 MB)
+Cache 1560 scores, 14 run files, 8 figures. EVIDENCE.md at 64,801 bytes (S35).
+Sent to supervisor for review.
+
+## Submission build 2026-08-12 (supersedes the earlier entry)
+sha256 d06ff2668ac21be437f69817e71e278caabc175c6dbd7ccaf689f0bd6d63eea3
+rag-nice-submission.zip, 1642 files, 1.6 MB.
+Cache 1560 scores, 14 run files, 8 figures. EVIDENCE.md through S38.
+
+CORRECTION: the earlier entry recorded a 32-character value labelled sha256.
+A SHA-256 digest is 64 characters. make_submission.py truncates the digest for
+display (it prints 32 characters followed by an ellipsis), so following its own
+instruction to "record that SHA-256" yields a half-digest. The value above was
+computed with Get-FileHash directly against the zip. That earlier entry also
+described a build containing three superseded .bak files, since removed; this
+entry describes the shipped package.

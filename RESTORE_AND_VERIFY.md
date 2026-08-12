@@ -1,3 +1,26 @@
+> ## SUPERSEDED IN PART — read this first (added 12 Aug 2026)
+>
+> This run sheet was written on 11 Aug 2026, before the experiment was complete.
+> The **procedure** below is still correct and still runnable. Several **figures
+> and open decisions** in it have since been overtaken by measurement, and are
+> corrected in `EVIDENCE.md` sections 31–38. Where the two disagree,
+> **`EVIDENCE.md` is authoritative.**
+>
+> | Claim in this file | Status as of 12 Aug 2026 |
+> |---|---|
+> | Score cache should contain **600** files (Steps 0, 7) | Now **1,560**: 1,080 scored across five k=5 conditions plus 480 for the two sweep conditions. See S31. |
+> | `outputs\figures\` should contain **6** PNGs (Step 8) | Now **8**. The two LLM-judged context metrics add one figure each. |
+> | Top-k sweep "has retrieval metrics but no RAGAS scores", sensitivity figure "plots two of three lines" | **Resolved.** k=3 and k=10 scored on all four RAGAS metrics on 12 Aug. See S31 and S35. |
+> | **"Maximum attainable P@5 is about 0.2… observed values are at the ceiling, so P@k cannot discriminate between retrieval methods here."** | **RETRACTED. This was wrong.** The estimate divided gold *passages* by k; gold passages are not gold *chunks* (measured 1.37 and 1.32 relevant chunks per question, max 3). Measured ceilings are **0.273** (fixed) and **0.263** (semantic), with attainment of **69.5–74.4%**. P@k was **not** saturated and was not prevented from discriminating. See **S32**. |
+> | Refusal-handling rule listed as an open decision | Still open. Settle before drafting Results. |
+>
+> The retracted ceiling claim is the consequential one: drafting the Results
+> chapter from this file rather than from `EVIDENCE.md` would put a false
+> statement into the dissertation. The error arose from reasoning about the
+> ceiling instead of measuring it — the same failure mode as every other defect
+> recorded in this project, and the reason `CLAUDE.md` requires verification by
+> execution.
+
 # FRESH START — restore and verify
 
 Run sheet for moving to `rag-nice-v2-2026-08-11.zip` without losing results.
@@ -238,3 +261,4 @@ k=5, the maximum attainable P@5 is about 0.2. Observed values are 0.183–0.203,
 i.e. at the ceiling, so P@k cannot discriminate between retrieval methods here.
 State this explicitly or report a normalised figure; presenting the four values
 as a comparison without the ceiling would be a genuine weakness.
+

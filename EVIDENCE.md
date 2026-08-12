@@ -1390,3 +1390,121 @@ bears directly on why H1 and H2 are null.
 or near 0.00 on context precision at both k=3 and k=10 — a subset where
 retrieval fails regardless of depth, consistent with the paraphrase-robustness
 finding. Candidates for qualitative error analysis.
+
+
+## 36. Independent reproduction on a clean clone — 12 Aug 2026
+
+Verified by cloning the published repository to a new directory
+(`~/Downloads/clone-test`), creating a fresh Python 3.11.9 virtual environment,
+and installing from `requirements.txt`. No file was copied from the working
+tree except the four NICE PDFs and `.env`, neither of which is shipped.
+
+**Stage 1 — analysis reproduced from the archived score cache (no API calls).**
+
+    scripts/verify_install.py           ALL CHECKS PASSED (12 markers)
+    pytest tests/ -q                    103 passed
+    scripts/diagnose_scoring.py         1560 cache files
+                                        1080 scored, 0 missing, 0 NaN, 0 bad
+    scripts/analyse.py                  all 20 comparisons across 5 families
+
+Every reported value was identical to the working tree: means, p-values,
+Holm-corrected p-values, rank-biserial coefficients, and 95% bootstrap
+confidence intervals, all to three decimal places. Identical bootstrap
+intervals confirm the resampling is seeded; an unseeded bootstrap would have
+drifted in the third decimal without any visible failure.
+
+The 480 unmatched cache files are the two sweep conditions
+(2 x 60 questions x 4 metrics), which are out of scope for a k=5 diagnostic.
+1080 + 480 = 1560. See section 33.
+
+**Stage 2 — deterministic half rebuilt from the source PDFs.**
+
+    scripts/build_all.py --docs NG28 NG136 NG238 NG106
+      fixed     547 chunks | min 109 / median 853 / mean 771 / max 1090
+      semantic  509 chunks | min 102 / median 645 / mean 790 / max 2044
+
+    scripts/verify_offsets.py
+      fixed     547/547 exact (100.0%)
+      semantic  509/509 exact (100.0%)
+
+    scripts/precision_ceiling.py
+      fixed arm    ceiling 0.273   attainment 74.4% / 69.5%
+      semantic arm ceiling 0.263   attainment 70.9% / 69.6%
+
+The ceiling script derives relevance by span overlap between the REBUILT chunks
+and the gold passages. Reproducing 0.273 and 0.263 exactly therefore
+demonstrates more than matching chunk counts: the rebuild produced identical
+character boundaries, so identical chunks were labelled relevant. Span-overlap
+relevance labelling — the foundation of every retrieval metric in this study —
+is reproducible from source.
+
+**What this does and does not establish.** It establishes that the shipped
+artefact is self-contained, that ingestion and chunking are deterministic, and
+that the statistical analysis is independently reproducible from the archived
+data. It does NOT establish end-to-end reproducibility: generation is not
+deterministic (Gemini 3.x deprecated `temperature`, section 8), and scoring
+reads from cache by design, so the judge was never called. The correct claim is
+the narrow one.
+
+**Corpus provenance recorded at rebuild.** NICE guidelines are revised, so
+these are required for reproducibility:
+
+    Doc     Pages   Chars    Retained  Published        Last updated   SHA-256
+    NG28      131   186,906    87.6%   2 Dec 2015       18 Feb 2026    1a3be64ff05a3a01...
+    NG136      52    87,144    88.6%   28 Aug 2019      26 Feb 2026    07f00ff626bb0aa9...
+    NG238      52    74,603    85.3%   14 Dec 2023      (none)         ca66058149bff1c4...
+    NG106      39    54,049    86.4%   12 Sep 2018      3 Sep 2025     6e344e58fe587d67...
+
+## 37. Build cost as a secondary outcome — measured 12 Aug 2026
+
+Wall-clock on the clean tree (Windows, Python 3.11.9, CPU only, no GPU):
+
+    Strategy    Chunking      Indexing    Total
+    fixed          0.1s        122.1s     133.4s
+    semantic     305.7s         96.7s     402.4s
+
+Semantic chunking is **3x slower overall** (402.4s vs 133.4s). At the chunking
+step itself the difference is far larger — 305.7s against a fixed-size time that
+registered as 0.1s — because the percentile-breakpoint algorithm must embed every
+sentence in the corpus before boundaries can be placed, whereas fixed-size
+splitting is pure string manipulation. No ratio is quoted for the chunking step
+alone: 0.1s is at the resolution limit of the timer, so a ratio computed from it
+would carry unsupportable precision. The 3x total is the defensible figure.
+
+Note that EVIDENCE section 9 records a semantic cost of approximately 2.4x,
+measured at breakpoint percentile 95 before calibration. The 3x figure here is
+for the final percentile-85 configuration, which produces more chunks and
+therefore more sentence embeddings. The two are different configurations, not a
+contradiction, and both should be cited with their percentile stated.
+
+Read alongside H1 (not supported, section 31 analysis), this supports a
+practical finding rather than only a null: on this corpus semantic chunking
+imposed a substantial compute cost and produced no detectable faithfulness
+benefit. Indexing is slightly cheaper for the semantic arm simply because it
+has 38 fewer chunks to embed.
+
+## 38. LIMITATION — chunk-length parity controlled the mean, not the distribution
+
+The H1 confound control (section 10) calibrated the semantic breakpoint
+percentile so that mean chunk length matched the fixed arm: 771 vs 790 chars,
+ratio 1.02. That control holds for mean context volume. It does NOT hold for
+the distribution:
+
+                min   median   mean   max
+    fixed       109     853     771   1090
+    semantic    102     645     790   2044
+
+The semantic arm has a lower median and nearly double the maximum chunk length,
+i.e. materially higher variance. Two consequences must be stated in the
+report rather than left for a reader to notice:
+
+1. The arms deliver comparable AVERAGE context volume per retrieved chunk but
+   different chunk-size distributions. Chunk-length variance is an uncontrolled
+   difference between the H1 conditions and a possible contributor to the null.
+2. The fixed arm is bounded above by construction (`chunk_size` 1000 plus
+   overlap); the semantic arm is bounded only by `semantic_max_chars` 2000. The
+   observed max of 2044 confirms the cap is binding on at least one chunk.
+
+Recorded as a limitation, not a defect: matching distributions rather than
+means would have required abandoning the percentile-breakpoint algorithm, which
+is the semantic strategy under test.
