@@ -1,0 +1,325 @@
+[
+  {
+    "question_id": "Q007",
+    "question": "A patient's clinic blood pressure reads 156/94. What should be done next to establish whether they actually have hypertension?",
+    "question_type": "factual",
+    "reference_answer": "Offer ambulatory blood pressure monitoring (ABPM) to confirm the diagnosis.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.2.3 If clinic blood pressure is between 140/90 mmHg and 180/120 mmHg, offer ambulatory blood pressure monitoring (ABPM) to confirm the diagnosis of hypertension. See the section on identifying who to refer for people with a clinic blood pressure 180/120 mmHg or higher. [2019]",
+        "locator": "rec 1.2.3",
+        "start_char": 10340,
+        "end_char": 10618
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q008",
+    "question": "A patient cannot tolerate wearing the 24-hour monitor. What is the alternative for confirming diagnosis?",
+    "question_type": "factual",
+    "reference_answer": "Offer home blood pressure monitoring (HBPM) instead.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.2.4 If ABPM is unsuitable or the person is unable to tolerate it, offer home blood pressure monitoring (HBPM) to confirm the diagnosis of hypertension. [2019]",
+        "locator": "rec 1.2.4",
+        "start_char": 10620,
+        "end_char": 10780
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q009",
+    "question": "How many readings are needed to confirm a diagnosis using 24-hour monitoring, and how often should they be taken?",
+    "question_type": "factual",
+    "reference_answer": "At least 2 measurements per hour during usual waking hours, and the average of at least 14 measurements taken during waking hours is used to confirm the diagnosis.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.2.6 When using ABPM to confirm a diagnosis of hypertension, ensure that at least 2 measurements per hour are taken during the person's usual waking hours (for example, between 08:00 and 22:00). Use the average value of at least 14 measurements taken during the person's usual waking hours to confirm a diagnosis of hypertension. [2011]",
+        "locator": "rec 1.2.6",
+        "start_char": 11136,
+        "end_char": 11473
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q010",
+    "question": "A 74-year-old has been diagnosed with hypertension. What clinic blood pressure should treatment be aiming to achieve?",
+    "question_type": "factual",
+    "reference_answer": "Below 140/90 mmHg, and maintained below that level.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.20 For adults with hypertension aged under 80, reduce clinic blood pressure to below 140/90 mmHg and ensure that it is maintained below that level. See also table 1 for guidance on clinic blood pressure targets for people aged under 80 with type 1 diabetes or severe chronic kidney disease. [2019, amended 2022]",
+        "locator": "rec 1.4.20",
+        "start_char": 23446,
+        "end_char": 23761
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q011",
+    "question": "A patient of Black African family origin needs starting on treatment for high blood pressure. Does the choice of drug differ?",
+    "question_type": "factual",
+    "reference_answer": "Yes - consider an angiotensin II receptor blocker (ARB) in preference to an ACE inhibitor.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.30 When choosing antihypertensive drug treatment for adults of Black African or African-Caribbean family origin, consider an angiotensin II receptor blocker (ARB), in preference to an angiotensin-converting enzyme (ACE) inhibitor. [2019] Follow the MHRA safety advice on ACE inhibitors and angiotensin II receptor",
+        "locator": "rec 1.4.30",
+        "start_char": 28050,
+        "end_char": 28367
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q012",
+    "question": "A patient has developed a persistent dry cough since starting their blood pressure medication. What should be offered instead?",
+    "question_type": "factual",
+    "reference_answer": "An ARB.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.33 If an ACE inhibitor is not tolerated, for example because of cough, offer an ARB to treat hypertension. [2019] Fo",
+        "locator": "rec 1.4.33",
+        "start_char": 30354,
+        "end_char": 30474
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q013",
+    "question": "A patient has developed ankle swelling on their blood pressure medication and it is not tolerable. What is the alternative?",
+    "question_type": "factual",
+    "reference_answer": "A thiazide-like diuretic.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.36 If a CCB is not tolerated, for example because of oedema, offer a thiazide-like diuretic to treat hypertension. [2019]",
+        "locator": "rec 1.4.36",
+        "start_char": 31009,
+        "end_char": 31134
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q014",
+    "question": "If a diuretic is being started for high blood pressure, which type should be chosen and can you give an example?",
+    "question_type": "factual",
+    "reference_answer": "A thiazide-like diuretic, such as indapamide, in preference to a conventional thiazide diuretic such as bendroflumethiazide or hydrochlorothiazide.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.38 If starting or changing diuretic treatment for hypertension, offer a thiazide-like diuretic, such as indapamide in preference to a conventional thiazide diuretic such as bendroflumethiazide or hydrochlorothiazide. [2019]",
+        "locator": "rec 1.4.38",
+        "start_char": 31275,
+        "end_char": 31502
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q015",
+    "question": "A patient's blood pressure remains high despite optimal doses of three different drugs. What is this called, and what comes next?",
+    "question_type": "comparative",
+    "reference_answer": "They are regarded as having resistant hypertension. Consider adding a fourth antihypertensive drug as step 4 treatment, or seek specialist advice.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.46 If hypertension is not controlled in adults taking the optimal tolerated doses of an ACE inhibitor or an ARB plus a CCB and a thiazide-like diuretic, regard them as having resistant hypertension. [2019]",
+        "locator": "rec 1.4.46",
+        "start_char": 33764,
+        "end_char": 33973
+      },
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.48 For people with confirmed resistant hypertension, consider adding a fourth antihypertensive drug as step 4 treatment or seeking specialist",
+        "locator": "rec 1.4.48",
+        "start_char": 34262,
+        "end_char": 34407
+      }
+    ],
+    "notes": "Needs both: the definition and the subsequent action are in separate recommendations.",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q016",
+    "question": "A patient starting step 4 treatment has a potassium level of 4.2 mmol/l. What further diuretic option is available to them?",
+    "question_type": "comparative",
+    "reference_answer": "Low-dose spironolactone may be considered, since their potassium is 4.5 mmol/l or less. Particular caution is needed in people with a reduced eGFR.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.49 Consider further diuretic therapy with low-dose spironolactone for adults with resistant hypertension starting step 4 treatment who have a blood potassium level of 4.5 mmol/l or less. Use particular caution in people with a reduced estimated glomerular filtration rate because they h",
+        "locator": "rec 1.4.49",
+        "start_char": 34604,
+        "end_char": 34894
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q017",
+    "question": "Two patients both have stage 1 hypertension - one is 58 with a 10-year cardiovascular risk of 8%, the other is 84 with a clinic reading of 154/88. Should either be offered drug treatment?",
+    "question_type": "multi_step",
+    "reference_answer": "Both may be considered for drug treatment alongside lifestyle advice. For the 58-year-old, treatment can be considered despite the 10-year risk being below 10%, bearing in mind that 10-year risk may underestimate lifetime probability. For the 84-year-old, treatment can be considered because clinic blood pressure is over 150/90 mmHg, using clinical judgement if there is frailty or multimorbidity.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.12 Consider antihypertensive drug treatment in addition to lifestyle advice for adults aged under 60 with stage 1 hypertension and an estimated 10-year risk below 10%. Bear in mind that 10-year cardiovascular risk may underestimate the lifetime probability of developing cardiovascular disease. [2019]",
+        "locator": "rec 1.4.12",
+        "start_char": 18771,
+        "end_char": 19076
+      },
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.13 Consider antihypertensive drug treatment in addition to lifestyle advice for people aged over 80 with stage 1 hypertension if their clinic blood pressure is over 150/90 mmHg. Use clinical judgement for people with frailty or multimorbidity (see also NICE's guideline on multimorbidity). [2019]",
+        "locator": "rec 1.4.13",
+        "start_char": 19078,
+        "end_char": 19378
+      }
+    ],
+    "notes": "Two distinct age-based criteria; neither passage covers both patients.",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q018",
+    "question": "A patient aged 83 and a patient aged 62 are both being treated for hypertension. Do they have the same clinic blood pressure target?",
+    "question_type": "multi_step",
+    "reference_answer": "No. The 62-year-old should be reduced to below 140/90 mmHg, while the 83-year-old should be reduced to below 150/90 mmHg, with clinical judgement used if there is frailty or multimorbidity.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.20 For adults with hypertension aged under 80, reduce clinic blood pressure to below 140/90 mmHg and ensure that it is maintained below that level. See also table 1 for guidance on clinic blood pr",
+        "locator": "rec 1.4.20",
+        "start_char": 23446,
+        "end_char": 23646
+      },
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.21 For adults with hypertension aged 80 and over, reduce clinic blood pressure to below 150/90 mmHg and ensure that it is maintained below that level. Use clinical judgement for people with frailty or multimorbidity (see NICE's guideline on multi",
+        "locator": "rec 1.4.21",
+        "start_char": 23763,
+        "end_char": 24013
+      }
+    ],
+    "notes": "Requires both age-band targets.",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q019",
+    "question": "A patient's clinic reading is 184/122 but they have no symptoms suggesting they need to be seen the same day. What should happen?",
+    "question_type": "comparative",
+    "reference_answer": "Carry out investigations for target organ damage as soon as possible.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.5.1 If a person has severe hypertension (clinic blood pressure of 180/120 mmHg or higher), but no symptoms or signs indicating same-day referral (see recommendation 1.5.2), carry out investigations for target organ damage (see recommendation 1.3.3) as soon as possible:",
+        "locator": "rec 1.5.1",
+        "start_char": 35973,
+        "end_char": 36244
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q020",
+    "question": "On standing, a patient's systolic blood pressure drops by 24 mmHg. Is this significant enough to act on?",
+    "question_type": "factual",
+    "reference_answer": "Yes - a fall of 20 mmHg or more in systolic blood pressure after standing for at least 1 minute meets the threshold for further action.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.1.6 If the person's systolic blood pressure falls by 20 mmHg or more, or their diastolic blood pressure falls by 10 mmHg or more, after the person has been standing for at least 1 minute:",
+        "locator": "rec 1.1.6",
+        "start_char": 8565,
+        "end_char": 8754
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q021",
+    "question_type": "multi_step",
+    "question": "A 68-year-old with hypertension also has chronic kidney disease and an albumin to creatinine ratio of 85 mg/mmol. What clinic blood pressure should they be treated to?",
+    "reference_answer": "Below 130/80 mmHg. The general target for someone under 80 with hypertension is below 140/90, but for a person under 80 with chronic kidney disease and an albumin to creatinine ratio of 70 mg/mmol or more the target is below 130/80.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.20 For adults with hypertension aged under 80, reduce clinic blood pressure to below 140/90 mmHg and ensure that it is maintained below that level. See also table 1 for guidance on clinic blood pr",
+        "locator": "rec 1.4.20",
+        "start_char": 23446,
+        "end_char": 23646
+      },
+      {
+        "doc_id": "NG136",
+        "passage": "- type 1 diabetes plus albumin to creatinine ratio of 70 mg/mmol or more or\n\n- chronic kidney disease plus albumin to creatinine ratio of 70 mg/mmol or more\n\nBelow 130/80 NICE's guideline on type 1 diabetes in adults (recommendation 1.13.8)\n\nNICE's guideline on chronic kidney disease (recommendation",
+        "locator": "table 1",
+        "start_char": 20957,
+        "end_char": 21257
+      }
+    ],
+    "notes": "Requires the recommendation AND table 1. The recommendation alone gives the wrong answer for this patient - a good discriminator between conditions that retrieve the table and those that do not.",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q022",
+    "question_type": "multi_step",
+    "question": "An 84-year-old with hypertension and chronic kidney disease has an albumin to creatinine ratio of 45 mg/mmol. What blood pressure target applies?",
+    "reference_answer": "Below 140/90 mmHg. The usual target for someone aged 80 and over is below 150/90, but for a person aged 80 and over with chronic kidney disease and an albumin to creatinine ratio below 70 mg/mmol the target is below 140/90.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.21 For adults with hypertension aged 80 and over, reduce clinic blood pressure to below 150/90 mmHg and ensure that it is maintained below that level. Use clinical judgement for people with frailty or multimorbidity (see NICE's guideline on multi",
+        "locator": "rec 1.4.21",
+        "start_char": 23763,
+        "end_char": 24013
+      },
+      {
+        "doc_id": "NG136",
+        "passage": "Table 2: Clinic blood pressure targets for people aged 80 and over Person aged 80 and over with:\n\nClinic blood pressure target\n\nSource\n\n- hypertension (with or without type 2 diabetes) or\n\n- type 1 diabetes (regardless of albumin to creatinine ratio)\n\nBelow 150/90 Recommendation 1.4.21 NICE's guideline on type 1 diabetes in adults (recommendation 1.13.8)\n\n- chronic kidney disease plus albumin to creatinine ratio less",
+        "locator": "table 2",
+        "start_char": 21265,
+        "end_char": 21685
+      }
+    ],
+    "notes": "Age band and comorbidity interact; both passages needed.",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "question_id": "Q001",
+    "question": "What HbA1c target should be agreed with an adult with type 2 diabetes managed by lifestyle and diet alone?",
+    "question_type": "factual",
+    "reference_answer": "An HbA1c level of 48 mmol/mol (6.5%).",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "PASTE THE VERBATIM SENTENCE(S) FROM data/interim/NG28.txt HERE - do not retype, do not paraphrase",
+        "locator": "recommendation 1.6.1"
+      }
+    ],
+    "notes": "Worked example. Delete this row once you have real ones.",
+    "author": "Anuj Dubey",
+    "verified": false
+  },
+  {
+    "question_id": "Q002",
+    "question": "How does the recommended first-line antihypertensive differ between an adult aged over 55 without type 2 diabetes and an adult of any age with type 2 diabetes?",
+    "question_type": "multi_step",
+    "reference_answer": "REPLACE - answer supported ONLY by the passages below.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "PASTE VERBATIM PASSAGE ONE HERE",
+        "locator": "recommendation 1.4.x"
+      },
+      {
+        "doc_id": "NG136",
+        "passage": "PASTE VERBATIM PASSAGE TWO HERE",
+        "locator": "recommendation 1.4.y"
+      }
+    ],
+    "notes": "multi_step requires >= 2 gold passages - the validator enforces this.",
+    "author": "Anuj Dubey",
+    "verified": false
+  }
+]

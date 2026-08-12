@@ -1,0 +1,1278 @@
+[
+  {
+    "question_id": "Q001",
+    "question": "How high does HbA1c have to get before treatment needs intensifying in someone already on a single glucose-lowering drug?",
+    "question_type": "factual",
+    "reference_answer": "58 mmol/mol (7.5%) or above.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.5.8 In adults with type 2 diabetes, if HbA1c levels are not adequately controlled by the initial medication regimen and rise to 58 mmol/mol (7.5%) or higher:",
+        "locator": "rec 1.5.8",
+        "start_char": 21566,
+        "end_char": 21725
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q002",
+    "question": "A patient is diagnosed with type 2 diabetes in their thirties. What should they be started on?",
+    "question_type": "factual",
+    "reference_answer": "Modified-release metformin and an SGLT-2 inhibitor.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.16.1 For adults with early onset type 2 diabetes, offer modified-release metformin and an SGLT-2 inhibitor, and consider adding either:",
+        "locator": "rec 1.16.1",
+        "start_char": 78352,
+        "end_char": 78489
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q003",
+    "question": "A patient follows a ketogenic diet and is due to start an SGLT-2 inhibitor. Is there anything to consider first?",
+    "question_type": "comparative",
+    "reference_answer": "Yes. Check whether they are at increased risk of diabetic ketoacidosis before starting. A very low carbohydrate or ketogenic diet is a modifiable risk, and treatment may need to be delayed until the diet has changed.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.21.1 Before starting an SGLT-2 inhibitor, check whether the person may be at increased risk of diabetic ketoacidosis (DKA), for example if they:",
+        "locator": "rec 1.21.1",
+        "start_char": 103822,
+        "end_char": 103968
+      },
+      {
+        "doc_id": "NG28",
+        "passage": "1.21.2 Address modifiable risks of DKA before starting an SGLT-2 inhibitor. For example, people who are following a very low carbohydrate or ketogenic diet may need to delay treatment until they have changed their diet. [2022]",
+        "locator": "rec 1.21.2",
+        "start_char": 104179,
+        "end_char": 104405
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q004",
+    "question": "A patient is on both an SGLT-2 inhibitor and a GLP-1 receptor agonist but has not reached their HbA1c target. Should either drug be stopped?",
+    "question_type": "multi_step",
+    "reference_answer": "The GLP-1 receptor agonist should be stopped if it is not helping reach the target and is not being taken for cardiovascular benefit. The SGLT-2 inhibitor can be continued despite the target not being met, because of its cardiovascular and renal benefits.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.24.2 Consider continuing SGLT-2 inhibitors for their cardiovascular or renal benefits, even if they do not help the person reach their individualised glycaemic targets. [2026]",
+        "locator": "rec 1.24.2",
+        "start_char": 114425,
+        "end_char": 114602
+      },
+      {
+        "doc_id": "NG28",
+        "passage": "1.24.4 Stop GLP-1 receptor agonists or tirzepatide if they do not help the person reach their individualised glycaemic targets and they are not being taken for their cardiovascular benefits. [2026]",
+        "locator": "rec 1.24.4",
+        "start_char": 114722,
+        "end_char": 114919
+      }
+    ],
+    "notes": "Requires both passages: neither alone supports the contrast.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q005",
+    "question": "A patient's clinic blood pressure reads 156/94. What should be done next to establish whether they actually have hypertension?",
+    "question_type": "factual",
+    "reference_answer": "Offer ambulatory blood pressure monitoring (ABPM) to confirm the diagnosis.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.2.3 If clinic blood pressure is between 140/90 mmHg and 180/120 mmHg, offer ambulatory blood pressure monitoring (ABPM) to confirm the diagnosis of hypertension. See the section on identifying who to refer for people with a clinic blood pressure 180/120 mmHg or higher. [2019]",
+        "locator": "rec 1.2.3",
+        "start_char": 10340,
+        "end_char": 10618
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q006",
+    "question": "A patient cannot tolerate wearing the 24-hour monitor. What is the alternative for confirming diagnosis?",
+    "question_type": "factual",
+    "reference_answer": "Offer home blood pressure monitoring (HBPM) instead.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.2.4 If ABPM is unsuitable or the person is unable to tolerate it, offer home blood pressure monitoring (HBPM) to confirm the diagnosis of hypertension. [2019]",
+        "locator": "rec 1.2.4",
+        "start_char": 10620,
+        "end_char": 10780
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q007",
+    "question": "How many readings are needed to confirm a diagnosis using 24-hour monitoring, and how often should they be taken?",
+    "question_type": "factual",
+    "reference_answer": "At least 2 measurements per hour during usual waking hours, and the average of at least 14 measurements taken during waking hours is used to confirm the diagnosis.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.2.6 When using ABPM to confirm a diagnosis of hypertension, ensure that at least 2 measurements per hour are taken during the person's usual waking hours (for example, between 08:00 and 22:00). Use the average value of at least 14 measurements taken during the person's usual waking hours to confirm a diagnosis of hypertension. [2011]",
+        "locator": "rec 1.2.6",
+        "start_char": 11136,
+        "end_char": 11473
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q008",
+    "question": "A 74-year-old has been diagnosed with hypertension. What clinic blood pressure should treatment be aiming to achieve?",
+    "question_type": "factual",
+    "reference_answer": "Below 140/90 mmHg, and maintained below that level.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.20 For adults with hypertension aged under 80, reduce clinic blood pressure to below 140/90 mmHg and ensure that it is maintained below that level. See also table 1 for guidance on clinic blood pressure targets for people aged under 80 with type 1 diabetes or severe chronic kidney disease. [2019, amended 2022]",
+        "locator": "rec 1.4.20",
+        "start_char": 23446,
+        "end_char": 23761
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q009",
+    "question": "A patient of Black African family origin needs starting on treatment for high blood pressure. Does the choice of drug differ?",
+    "question_type": "factual",
+    "reference_answer": "Yes - consider an angiotensin II receptor blocker (ARB) in preference to an ACE inhibitor.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.30 When choosing antihypertensive drug treatment for adults of Black African or African-Caribbean family origin, consider an angiotensin II receptor blocker (ARB), in preference to an angiotensin-converting enzyme (ACE) inhibitor. [2019] Follow the MHRA safety advice on ACE inhibitors and angiotensin II receptor",
+        "locator": "rec 1.4.30",
+        "start_char": 28050,
+        "end_char": 28367
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q010",
+    "question": "A patient has developed a persistent dry cough since starting their blood pressure medication. What should be offered instead?",
+    "question_type": "factual",
+    "reference_answer": "An ARB should be offered instead.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.33 If an ACE inhibitor is not tolerated, for example because of cough, offer an ARB to treat hypertension. [2019] Fo",
+        "locator": "rec 1.4.33",
+        "start_char": 30354,
+        "end_char": 30474
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q011",
+    "question": "A patient has developed ankle swelling on their blood pressure medication and it is not tolerable. What is the alternative?",
+    "question_type": "factual",
+    "reference_answer": "A thiazide-like diuretic.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.36 If a CCB is not tolerated, for example because of oedema, offer a thiazide-like diuretic to treat hypertension. [2019]",
+        "locator": "rec 1.4.36",
+        "start_char": 31009,
+        "end_char": 31134
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q012",
+    "question": "If a diuretic is being started for high blood pressure, which type should be chosen and can you give an example?",
+    "question_type": "factual",
+    "reference_answer": "A thiazide-like diuretic, such as indapamide, in preference to a conventional thiazide diuretic such as bendroflumethiazide or hydrochlorothiazide.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.38 If starting or changing diuretic treatment for hypertension, offer a thiazide-like diuretic, such as indapamide in preference to a conventional thiazide diuretic such as bendroflumethiazide or hydrochlorothiazide. [2019]",
+        "locator": "rec 1.4.38",
+        "start_char": 31275,
+        "end_char": 31502
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q013",
+    "question": "A patient's blood pressure remains high despite optimal doses of three different drugs. What is this called, and what comes next?",
+    "question_type": "comparative",
+    "reference_answer": "They are regarded as having resistant hypertension. Consider adding a fourth antihypertensive drug as step 4 treatment, or seek specialist advice.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.46 If hypertension is not controlled in adults taking the optimal tolerated doses of an ACE inhibitor or an ARB plus a CCB and a thiazide-like diuretic, regard them as having resistant hypertension. [2019]",
+        "locator": "rec 1.4.46",
+        "start_char": 33764,
+        "end_char": 33973
+      },
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.48 For people with confirmed resistant hypertension, consider adding a fourth antihypertensive drug as step 4 treatment or seeking specialist",
+        "locator": "rec 1.4.48",
+        "start_char": 34262,
+        "end_char": 34407
+      }
+    ],
+    "notes": "Needs both: the definition and the subsequent action are in separate recommendations.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q014",
+    "question": "A patient is moving on to step 4 for their blood pressure and their most recent potassium came back at 4.2 mmol/l. Does that open up any additional options?",
+    "question_type": "comparative",
+    "reference_answer": "Low-dose spironolactone may be considered, since their potassium is 4.5 mmol/l or less. Particular caution is needed in people with a reduced eGFR.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.49 Consider further diuretic therapy with low-dose spironolactone for adults with resistant hypertension starting step 4 treatment who have a blood potassium level of 4.5 mmol/l or less. Use particular caution in people with a reduced estimated glomerular filtration rate because they h",
+        "locator": "rec 1.4.49",
+        "start_char": 34604,
+        "end_char": 34894
+      }
+    ],
+    "notes": "Rephrased to remove borrowed sentence structure.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q015",
+    "question": "Two patients both have stage 1 hypertension - one is 58 with a 10-year cardiovascular risk of 8%, the other is 84 with a clinic reading of 154/88. Should either be offered drug treatment?",
+    "question_type": "multi_step",
+    "reference_answer": "Both may be considered for drug treatment alongside lifestyle advice. For the 58-year-old, treatment can be considered despite the 10-year risk being below 10%, bearing in mind that 10-year risk may underestimate lifetime probability. For the 84-year-old, treatment can be considered because clinic blood pressure is over 150/90 mmHg, using clinical judgement if there is frailty or multimorbidity.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.12 Consider antihypertensive drug treatment in addition to lifestyle advice for adults aged under 60 with stage 1 hypertension and an estimated 10-year risk below 10%. Bear in mind that 10-year cardiovascular risk may underestimate the lifetime probability of developing cardiovascular disease. [2019]",
+        "locator": "rec 1.4.12",
+        "start_char": 18771,
+        "end_char": 19076
+      },
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.13 Consider antihypertensive drug treatment in addition to lifestyle advice for people aged over 80 with stage 1 hypertension if their clinic blood pressure is over 150/90 mmHg. Use clinical judgement for people with frailty or multimorbidity (see also NICE's guideline on multimorbidity). [2019]",
+        "locator": "rec 1.4.13",
+        "start_char": 19078,
+        "end_char": 19378
+      }
+    ],
+    "notes": "Two distinct age-based criteria; neither passage covers both patients.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q016",
+    "question": "A patient aged 83 and a patient aged 62 are both being treated for hypertension. Do they have the same clinic blood pressure target?",
+    "question_type": "multi_step",
+    "reference_answer": "No. The 62-year-old should be reduced to below 140/90 mmHg, while the 83-year-old should be reduced to below 150/90 mmHg, with clinical judgement used if there is frailty or multimorbidity.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.20 For adults with hypertension aged under 80, reduce clinic blood pressure to below 140/90 mmHg and ensure that it is maintained below that level. See also table 1 for guidance on clinic blood pr",
+        "locator": "rec 1.4.20",
+        "start_char": 23446,
+        "end_char": 23646
+      },
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.21 For adults with hypertension aged 80 and over, reduce clinic blood pressure to below 150/90 mmHg and ensure that it is maintained below that level. Use clinical judgement for people with frailty or multimorbidity (see NICE's guideline on multi",
+        "locator": "rec 1.4.21",
+        "start_char": 23763,
+        "end_char": 24013
+      }
+    ],
+    "notes": "Requires both age-band targets.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q017",
+    "question": "A patient's clinic reading is 184/122 but they have no symptoms suggesting they need to be seen the same day. What should happen?",
+    "question_type": "comparative",
+    "reference_answer": "Carry out investigations for target organ damage as soon as possible.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.5.1 If a person has severe hypertension (clinic blood pressure of 180/120 mmHg or higher), but no symptoms or signs indicating same-day referral (see recommendation 1.5.2), carry out investigations for target organ damage (see recommendation 1.3.3) as soon as possible:",
+        "locator": "rec 1.5.1",
+        "start_char": 35973,
+        "end_char": 36244
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q018",
+    "question": "On standing, a patient's systolic blood pressure drops by 24 mmHg. Is this significant enough to act on?",
+    "question_type": "factual",
+    "reference_answer": "Yes - a fall of 20 mmHg or more in systolic blood pressure after standing for at least 1 minute meets the threshold for further action.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.1.6 If the person's systolic blood pressure falls by 20 mmHg or more, or their diastolic blood pressure falls by 10 mmHg or more, after the person has been standing for at least 1 minute:",
+        "locator": "rec 1.1.6",
+        "start_char": 8565,
+        "end_char": 8754
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q019",
+    "question_type": "multi_step",
+    "question": "A 68-year-old with hypertension also has chronic kidney disease and an albumin to creatinine ratio of 85 mg/mmol. What clinic blood pressure should they be treated to?",
+    "reference_answer": "Below 130/80 mmHg. The general target for someone under 80 with hypertension is below 140/90, but for a person under 80 with chronic kidney disease and an albumin to creatinine ratio of 70 mg/mmol or more the target is below 130/80.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.20 For adults with hypertension aged under 80, reduce clinic blood pressure to below 140/90 mmHg and ensure that it is maintained below that level. See also table 1 for guidance on clinic blood pr",
+        "locator": "rec 1.4.20",
+        "start_char": 23446,
+        "end_char": 23646
+      },
+      {
+        "doc_id": "NG136",
+        "passage": "- type 1 diabetes plus albumin to creatinine ratio of 70 mg/mmol or more or\n\n- chronic kidney disease plus albumin to creatinine ratio of 70 mg/mmol or more\n\nBelow 130/80 NICE's guideline on type 1 diabetes in adults (recommendation 1.13.8)\n\nNICE's guideline on chronic kidney disease (recommendation",
+        "locator": "table 1",
+        "start_char": 20957,
+        "end_char": 21257
+      }
+    ],
+    "notes": "Requires the recommendation AND table 1. The recommendation alone gives the wrong answer for this patient - a good discriminator between conditions that retrieve the table and those that do not.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q020",
+    "question_type": "multi_step",
+    "question": "An 84-year-old with hypertension and chronic kidney disease has an albumin to creatinine ratio of 45 mg/mmol. What blood pressure target applies?",
+    "reference_answer": "Below 140/90 mmHg. The usual target for someone aged 80 and over is below 150/90, but for a person aged 80 and over with chronic kidney disease and an albumin to creatinine ratio below 70 mg/mmol the target is below 140/90.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.21 For adults with hypertension aged 80 and over, reduce clinic blood pressure to below 150/90 mmHg and ensure that it is maintained below that level. Use clinical judgement for people with frailty or multimorbidity (see NICE's guideline on multi",
+        "locator": "rec 1.4.21",
+        "start_char": 23763,
+        "end_char": 24013
+      },
+      {
+        "doc_id": "NG136",
+        "passage": "Table 2: Clinic blood pressure targets for people aged 80 and over Person aged 80 and over with:\n\nClinic blood pressure target\n\nSource\n\n- hypertension (with or without type 2 diabetes) or\n\n- type 1 diabetes (regardless of albumin to creatinine ratio)\n\nBelow 150/90 Recommendation 1.4.21 NICE's guideline on type 1 diabetes in adults (recommendation 1.13.8)\n\n- chronic kidney disease plus albumin to creatinine ratio less",
+        "locator": "table 2",
+        "start_char": 21265,
+        "end_char": 21685
+      }
+    ],
+    "notes": "Age band and comorbidity interact; both passages needed.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q021",
+    "question": "Which tool should be used to estimate someone's 10-year cardiovascular risk, and does it apply to people with type 2 diabetes?",
+    "question_type": "comparative",
+    "reference_answer": "QRISK3, for people aged between 25 and 84 without CVD, and it should also be used for people with type 2 diabetes aged between 25 and 84.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.1.7 Use the QRISK3 tool to calculate the estimated CVD risk within the next 10 years for people aged between 25 and 84 without CVD. [May 2023]",
+        "locator": "rec 1.1.7",
+        "start_char": 6309,
+        "end_char": 6453
+      },
+      {
+        "doc_id": "NG238",
+        "passage": "1.1.8 Use the QRISK3 tool for people with type 2 diabetes aged between 25 and 84",
+        "locator": "rec 1.1.8",
+        "start_char": 6455,
+        "end_char": 6535
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q022",
+    "question": "A routine test shows a patient's total cholesterol at 9.4 mmol/litre. Nobody in their family had heart problems young. Does anything need to happen?",
+    "question_type": "factual",
+    "reference_answer": "Yes - specialist assessment should be arranged for a total cholesterol above 9.0 mmol/litre even without a first-degree family history of premature coronary heart disease.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.4.5 Arrange for specialist assessment of people with a total blood cholesterol level of more than 9.0 mmol per litre or a non-HDL cholesterol level of more than 7.5 mmol per litre even in the absence of a first-degree family history of premature coronary heart disease. [2014]",
+        "locator": "rec 1.4.5",
+        "start_char": 23873,
+        "end_char": 24151
+      }
+    ],
+    "notes": "Rephrased to remove borrowed sentence structure.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q023",
+    "question": "A patient has a triglyceride level of 24 mmol/litre and drinks very little alcohol. What should happen?",
+    "question_type": "factual",
+    "reference_answer": "Refer for urgent specialist review.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.4.6 Refer for urgent specialist review if a person has a triglyceride level of more than 20 mmol per litre that is not a result of excess alcohol intake or poor glycaemic control. [2014]",
+        "locator": "rec 1.4.6",
+        "start_char": 24153,
+        "end_char": 24341
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q024",
+    "question": "How much should non-HDL cholesterol be reduced by when treating someone to prevent a first cardiovascular event?",
+    "question_type": "factual",
+    "reference_answer": "Aim for a greater than 40% reduction in non-HDL cholesterol.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.6.1 For primary prevention of CVD aim for a greater than 40% reduction in non-HDL cholesterol. [May 2023]",
+        "locator": "rec 1.6.1",
+        "start_char": 30291,
+        "end_char": 30398
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q025",
+    "question": "A patient's liver transaminases are raised at twice the upper limit of normal. Does this rule out starting a statin?",
+    "question_type": "factual",
+    "reference_answer": "No - people with transaminase levels that are raised but less than 3 times the upper limit of normal should not routinely be excluded from statin treatment.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.5.6 Do not routinely exclude from statin treatment people who have liver transaminase levels that are raised but are less than 3 times the upper limit of normal. [May 2023]",
+        "locator": "rec 1.5.6",
+        "start_char": 26940,
+        "end_char": 27114
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q026",
+    "question": "What proportion of energy intake should come from fat, and specifically from saturated fat, in someone at high cardiovascular risk?",
+    "question_type": "factual",
+    "reference_answer": "Total fat intake should be 30% or less of total energy intake and saturated fats 7% or less, with saturated fats replaced where possible by mono-unsaturated and polyunsaturated fats.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.3.2 Advise people at high risk of or with CVD to eat a diet in which total fat intake is 30% or less of total energy intake, saturated fats are 7% or less of total energy intake, and where possible saturated fats are replaced by mono-unsaturated and polyunsaturated fats. [May 2023]",
+        "locator": "rec 1.3.2",
+        "start_char": 19522,
+        "end_char": 19806
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q027",
+    "question": "A patient reports longstanding unexplained muscle aching and is about to be started on a statin. What should be done first?",
+    "question_type": "comparative",
+    "reference_answer": "Ask about persistent generalised unexplained muscle symptoms and, if present, measure creatine kinase levels before offering the statin.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.5.7 Before offering a statin, ask the person if they have had persistent generalised unexplained muscle symptoms (pain, tenderness or weakness), whether associated or not with previous lipid-lowering treatment. If they have, measure creatine kinase levels. If creatine kinase levels are:",
+        "locator": "rec 1.5.7",
+        "start_char": 27116,
+        "end_char": 27405
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q028",
+    "question": "A woman of childbearing age is being considered for a statin. Is there anything that would prevent this?",
+    "question_type": "factual",
+    "reference_answer": "Yes - statins are contraindicated in pregnancy because of the risk to the unborn child.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.5.9 Be aware that statins are contraindicated in pregnancy because of the risk to the unborn child of exposure to statins. [2014, amended May 2023]",
+        "locator": "rec 1.5.9",
+        "start_char": 29535,
+        "end_char": 29684
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q029",
+    "question": "A patient's cholesterol is raised and they also have untreated hypothyroidism. What should be addressed before considering a referral or starting treatment?",
+    "question_type": "comparative",
+    "reference_answer": "Exclude common secondary causes of dyslipidaemia such as excess alcohol, uncontrolled diabetes, hypothyroidism, liver disease and nephrotic syndrome before referring for specialist review, and treat comorbidities and secondary causes before starting statins.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.4.3 Exclude possible common secondary causes of dyslipidaemia (such as excess alcohol intake, uncontrolled diabetes, hypothyroidism, liver disease and nephrotic syndrome) before referring for specialist review. [2014]",
+        "locator": "rec 1.4.3",
+        "start_char": 23459,
+        "end_char": 23678
+      },
+      {
+        "doc_id": "NG238",
+        "passage": "1.6.6 Before starting statins, treat comorbidities and secondary causes of dyslipidaemia.",
+        "locator": "rec 1.6.6",
+        "start_char": 31270,
+        "end_char": 31359
+      }
+    ],
+    "notes": "Two separate recommendations cover exclusion before referral and treatment before statins.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q030",
+    "question": "A 37-year-old has several cardiovascular risk factors but a 10-year QRISK3 score of only 6%. Is there anything else that could inform the discussion?",
+    "question_type": "comparative",
+    "reference_answer": "Consider using a lifetime risk tool such as QRISK3-lifetime, which is particularly suggested for people with a 10-year QRISK3 score below 10% and people under 40 who have CVD risk factors.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.1.16 Consider using a lifetime risk tool such as QRISK3-lifetime to inform discussions on CVD risk and to motivate lifestyle changes, particularly for people with a 10-year QRISK3 score less than 10%, and people under 40 who have CVD risk factors. [May 2023]",
+        "locator": "rec 1.1.16",
+        "start_char": 14909,
+        "end_char": 15169
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q031",
+    "question": "Two patients present with suspected heart failure - one has an NT-proBNP of 2,400 ng/litre and the other 900 ng/litre. Should they be managed with the same urgency?",
+    "question_type": "multi_step",
+    "reference_answer": "No. The patient with a level above 2,000 ng/litre should be referred urgently for specialist assessment and echocardiography within 2 weeks, while the patient with a level between 400 and 2,000 ng/litre should be seen within 6 weeks.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.2.3 Because very high levels of NT-proBNP carry a poor prognosis, refer people with suspected heart failure and an NT-proBNP level more than 2,000 nanogram per litre (236 picomole per litre) urgently, to have specialist assessment and transthoracic echocardiography within 2 weeks. [2018]",
+        "locator": "rec 1.2.3",
+        "start_char": 11393,
+        "end_char": 11683
+      },
+      {
+        "doc_id": "NG106",
+        "passage": "1.2.4 Refer people with suspected heart failure and an NT-proBNP level between 400 and 2,000 nanogram per litre (47 to 236 pmol per litre) to have specialist assessment and transthoracic echocardiography within 6 weeks. [2018]",
+        "locator": "rec 1.2.4",
+        "start_char": 11685,
+        "end_char": 11911
+      }
+    ],
+    "notes": "Two thresholds in separate recommendations; neither alone answers the comparison.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q032",
+    "question": "What four medicines should someone with heart failure and a reduced ejection fraction be started on?",
+    "question_type": "factual",
+    "reference_answer": "An ACE inhibitor, a beta-blocker, a mineralocorticoid receptor antagonist (MRA) and an SGLT2 inhibitor.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.4.1 Offer an angiotensin-converting enzyme (ACE) inhibitor, a beta-blocker, a mineralocorticoid receptor antagonist (MRA) and a sodium-glucose cotransporter-2 (SGLT2) inhibitor to people with heart failure with reduced ejection fraction. [2025]",
+        "locator": "rec 1.4.1",
+        "start_char": 16618,
+        "end_char": 16864
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q033",
+    "question": "A patient with reduced ejection fraction is on maximum tolerated doses of all four recommended medicines but still has symptoms. What can be considered?",
+    "question_type": "comparative",
+    "reference_answer": "Consider switching the ACE inhibitor to an angiotensin receptor-neprilysin inhibitor (ARNI).",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.4.2 For people on the maximum tolerated dose of each of the 4 medicines who continue to have symptoms of heart failure, consider switching the ACE inhibitor to an angiotensin receptor-neprilysin inhibitor (AR",
+        "locator": "rec 1.4.2",
+        "start_char": 16866,
+        "end_char": 17076
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q034",
+    "question": "A patient with a weakened heart pump keeps getting a dry cough on their ACE inhibitor, though no swelling of the lips or throat. What combination should they be on instead?",
+    "question_type": "factual",
+    "reference_answer": "An ARNI, beta-blocker, MRA and SGLT2 inhibitor.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.4.3 For people with heart failure with reduced ejection fraction who have symptoms of intolerance to ACE inhibitors (other than angioedema), offer an ARNI, betablocker, MRA and SGLT2 inhibitor. [2025]",
+        "locator": "rec 1.4.3",
+        "start_char": 17163,
+        "end_char": 17365
+      }
+    ],
+    "notes": "Rephrased to remove borrowed sentence structure.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q035",
+    "question": "Does the recommended drug combination differ between heart failure with reduced ejection fraction and heart failure with preserved ejection fraction?",
+    "question_type": "multi_step",
+    "reference_answer": "Yes. For reduced ejection fraction, an ACE inhibitor, beta-blocker, MRA and SGLT2 inhibitor should be offered. For preserved ejection fraction, an MRA and an SGLT2 inhibitor should be considered.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.4.1 Offer an angiotensin-converting enzyme (ACE) inhibitor, a beta-blocker, a mineralocorticoid receptor antagonist (MRA) and a sodium-glucose cotransporter-2 (SGLT2) inhibitor to people with heart failure with reduced ejection fraction. [2025]",
+        "locator": "rec 1.4.1",
+        "start_char": 16618,
+        "end_char": 16864
+      },
+      {
+        "doc_id": "NG106",
+        "passage": "1.5.4 Consider an MRA and an sodium-glucose cotransporter-2 (SGLT2) inhibitor for treating heart failure with preserved ejection fraction. See also re",
+        "locator": "rec 1.5.4",
+        "start_char": 22037,
+        "end_char": 22187
+      }
+    ],
+    "notes": "Requires both ejection-fraction categories.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q036",
+    "question": "Two patients have heart failure - one with an ejection fraction of 35%, the other 45%. Would you put them on the same drugs?",
+    "question_type": "multi_step",
+    "reference_answer": "Both would be on an ACE inhibitor, a beta-blocker, an MRA and an SGLT2 inhibitor, but the strength of the recommendation differs: for reduced ejection fraction these should be offered, whereas for mildly reduced ejection fraction they should be considered.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.4.1 Offer an angiotensin-converting enzyme (ACE) inhibitor, a beta-blocker, a mineralocorticoid receptor antagonist (MRA) and a sodium-glucose cotransporter-2 (SGLT2) inhibitor to people with heart failure with reduced ejection fraction. [2025]",
+        "locator": "rec 1.4.1",
+        "start_char": 16618,
+        "end_char": 16864
+      },
+      {
+        "doc_id": "NG106",
+        "passage": "1.5.1 Consider an angiotensin-converting enzyme (ACE) inhibitor, a beta-blocker, a mineralocorticoid receptor antagonist (MRA) and a sodium-glucose cotransporter-2 (SGLT2) inhibitor for treating heart failure with mildly reduced ejection fraction. See also recommendation 1.5.3. [2025]",
+        "locator": "rec 1.5.1",
+        "start_char": 20686,
+        "end_char": 20971
+      }
+    ],
+    "notes": "The distinction is offer vs consider; both passages needed. Rephrased to remove borrowed sentence structure.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q037",
+    "question": "A patient is about to start on an ACE inhibitor and an MRA for their heart failure. Are any blood tests needed first?",
+    "question_type": "factual",
+    "reference_answer": "Yes - renal function and electrolyte levels.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.7.3 Before prescribing an angiotensin-converting enzyme (ACE) inhibitor, angiotensin receptor-neprilysin inhibitor (ARNI), angiotensin II receptor blocker (ARB) or mineralocorticoid receptor antagonist (MRA), measure the person's renal function and electrolyte levels. [2025]",
+        "locator": "rec 1.7.3",
+        "start_char": 24455,
+        "end_char": 24732
+      }
+    ],
+    "notes": "Rephrased to remove borrowed sentence structure.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q038",
+    "question": "A patient on an ACE inhibitor for heart failure has a potassium of 5.8 mmol/litre. Is that a level requiring action?",
+    "question_type": "factual",
+    "reference_answer": "Yes - if potassium rises above 5.5 mmol per litre (or serum creatinine increases by more than 50%), local guidelines should be followed.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.7.5 If the person's serum creatinine level increases by more than 50% or their potassium concentration increases to more than 5.5 mmol per litre, follow local guidelines. [2025]",
+        "locator": "rec 1.7.5",
+        "start_char": 25067,
+        "end_char": 25246
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q039",
+    "question": "A 79-year-old with heart failure also has COPD and peripheral vascular disease. Should a beta-blocker be avoided?",
+    "question_type": "comparative",
+    "reference_answer": "No - treatment with a beta-blocker should not be withheld solely because of age or the presence of peripheral vascular disease, erectile dysfunction, diabetes, interstitial pulmonary disease or COPD. A 12-lead ECG should be used to assess heart rhythm, rate and conduction abnormalities before deciding whether to prescribe one.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.7.9 Do not withhold treatment with a beta-blocker solely because of age or the presence of peripheral vascular disease, erectile dysfunction, diabetes, interstitial pulmonary disease or chronic obstructive pulmonary disease. [2010]",
+        "locator": "rec 1.7.9",
+        "start_char": 26262,
+        "end_char": 26495
+      },
+      {
+        "doc_id": "NG106",
+        "passage": "1.7.10 Assess for heart rhythm, heart rate and conduction abnormalities using a 12-lead ECG before deciding whether to prescribe a beta-blocker. [2025]",
+        "locator": "rec 1.7.10",
+        "start_char": 26497,
+        "end_char": 26648
+      }
+    ],
+    "notes": "Contraindication myth plus the required pre-check.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q040",
+    "question": "The echocardiogram image quality is poor in a patient being assessed for heart failure. What are the alternatives?",
+    "question_type": "factual",
+    "reference_answer": "Alternative imaging methods such as radionuclide angiography (multigated acquisition scanning), cardiac MRI or transoesophageal echocardiography.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.2.11 Think about alternative methods of imaging the heart (for example, radionuclide angiography [multigated acquisition scanning], cardiac MRI or transoesophageal echocardiography) if a poor image is produced by transthoracic echocardiography. [2003, amended 2018]",
+        "locator": "rec 1.2.11",
+        "start_char": 13846,
+        "end_char": 14113
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q041",
+    "question": "A 62-year-old has both type 2 diabetes managed on diet alone and newly diagnosed hypertension. What HbA1c and clinic blood pressure should they be aiming for?",
+    "question_type": "multi_step",
+    "reference_answer": "An HbA1c of 48 mmol/mol (6.5%) and a clinic blood pressure below 140/90 mmHg, maintained below that level.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.5.7 For adults whose type 2 diabetes is managed either by healthy living and diet, or healthy living and diet combined with an initial medication regimen that is not associated with hypoglycaemia (see the section on initial medicines), support them to aim for an HbA1c level of 48 mmol/mol (6.5%).",
+        "locator": "NG28 rec 1.5.7",
+        "start_char": 21126,
+        "end_char": 21425
+      },
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.20 For adults with hypertension aged under 80, reduce clinic blood pressure to below 140/90 mmHg and ensure that it is maintained below that level. See also table 1 for guidance on clinic blood pr",
+        "locator": "NG136 rec 1.4.20",
+        "start_char": 23446,
+        "end_char": 23646
+      }
+    ],
+    "notes": "Targets live in two different guidelines; neither alone answers both halves.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q042",
+    "question": "A patient with type 2 diabetes needs their cardiovascular risk estimated. Which tool applies, and does having diabetes change the answer?",
+    "question_type": "multi_step",
+    "reference_answer": "QRISK3 should be used for people aged between 25 and 84 without CVD, and it should also be used for people with type 2 diabetes aged between 25 and 84 - so having type 2 diabetes does not change the tool used.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.1.7 Use the QRISK3 tool to calculate the estimated CVD risk within the next 10 years for people aged between 25 and 84 without CVD. [May 2023]",
+        "locator": "NG238 rec 1.1.7",
+        "start_char": 6309,
+        "end_char": 6453
+      },
+      {
+        "doc_id": "NG238",
+        "passage": "1.1.8 Use the QRISK3 tool for people with type 2 diabetes aged between 25 and 84",
+        "locator": "NG238 rec 1.1.8",
+        "start_char": 6455,
+        "end_char": 6535
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q043",
+    "question": "A patient has both hypertension and heart failure. Which class of diuretic is indicated, and what else should their heart failure treatment include?",
+    "question_type": "multi_step",
+    "reference_answer": "If there is evidence of heart failure, a thiazide-like diuretic should be offered. Heart failure with reduced ejection fraction should also be treated with an ACE inhibitor, a beta-blocker, an MRA and an SGLT2 inhibitor.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.37 If there is evidence of heart failure, offer a thiazide-like diuretic and follow NICE's guideline on chronic heart failure. [2019]",
+        "locator": "NG136 rec 1.4.37",
+        "start_char": 31136,
+        "end_char": 31273
+      },
+      {
+        "doc_id": "NG106",
+        "passage": "1.4.1 Offer an angiotensin-converting enzyme (ACE) inhibitor, a beta-blocker, a mineralocorticoid receptor antagonist (MRA) and a sodium-glucose cotransporter-2 (SGLT2) inhibitor to people with heart failure with reduced ejection fraction. [2025]",
+        "locator": "NG106 rec 1.4.1",
+        "start_char": 16618,
+        "end_char": 16864
+      }
+    ],
+    "notes": "Spans hypertension and heart failure guidelines.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q044",
+    "question": "A patient with early onset type 2 diabetes is also being assessed for cardiovascular risk. What medicines should they start, and what reduction in non-HDL cholesterol should treatment aim for?",
+    "question_type": "multi_step",
+    "reference_answer": "They should be offered modified-release metformin and an SGLT-2 inhibitor. For primary prevention of CVD, treatment should aim for a greater than 40% reduction in non-HDL cholesterol.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.16.1 For adults with early onset type 2 diabetes, offer modified-release metformin and an SGLT-2 inhibitor, and consider adding either:",
+        "locator": "NG28 rec 1.16.1",
+        "start_char": 78352,
+        "end_char": 78489
+      },
+      {
+        "doc_id": "NG238",
+        "passage": "1.6.1 For primary prevention of CVD aim for a greater than 40% reduction in non-HDL cholesterol. [May 2023]",
+        "locator": "NG238 rec 1.6.1",
+        "start_char": 30291,
+        "end_char": 30398
+      }
+    ],
+    "notes": "Cross-guideline: diabetes management plus lipid target.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q045",
+    "question": "A patient whose family is originally from the Caribbean is already on one blood pressure drug and is still above target. They do not have diabetes. What gets added, and was the first drug choice affected by their background too?",
+    "question_type": "multi_step",
+    "reference_answer": "An ARB should be considered in preference to an ACE inhibitor, in addition to their existing step 1 treatment. The same preference applies at step 1: an ARB should be considered in preference to an ACE inhibitor.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.30 When choosing antihypertensive drug treatment for adults of Black African or African-Caribbean family origin, consider an angiotensin II receptor blocker (ARB), in preference to an angiotensin-converting enzyme (ACE) inhibitor. [2019] Follow the MHRA safety advice on ACE inhibitors and angiotensin II receptor",
+        "locator": "rec 1.4.30",
+        "start_char": 28050,
+        "end_char": 28367
+      },
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.43 If hypertension is not controlled in adults of Black African or African-Caribbean family origin who do not have type 2 diabetes taking step 1 treatment, consider an ARB, in preference to an ACE inhibitor, in addition to step 1 treatment. [2019]",
+        "locator": "rec 1.4.43",
+        "start_char": 32685,
+        "end_char": 32936
+      }
+    ],
+    "notes": "Rephrased to remove borrowed sentence structure.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q046",
+    "question": "A patient on treatment for hypertension is monitoring at home rather than in clinic. What reading should they be aiming for if they are 72, and what if they were 84?",
+    "question_type": "multi_step",
+    "reference_answer": "Using ABPM or HBPM, blood pressure should be reduced to below 135/85 mmHg for adults aged under 80 and below 145/85 mmHg for adults aged 80 and over, using clinical judgement for people with frailty or multimorbidity.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.22 When using ABPM or HBPM to monitor the response to treatment in adults with hypertension, use the average blood pressure level taken during the person's usual waking hours (see recommendations 1.2.6 and 1.2.7). Reduce blood pressure and ensure that it is maintained:",
+        "locator": "rec 1.4.22",
+        "start_char": 24193,
+        "end_char": 24466
+      },
+      {
+        "doc_id": "NG136",
+        "passage": "- below 135/85 mmHg for adults aged under 80\n\n- below 145/85 mmHg for adults aged 80 and over. Use clinical judgement for people w",
+        "locator": "rec 1.4.22 targets",
+        "start_char": 24468,
+        "end_char": 24598
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q047",
+    "question": "A patient with heart failure develops angioedema on an ACE inhibitor and later cannot tolerate an ARNI either. What options remain?",
+    "question_type": "multi_step",
+    "reference_answer": "If ACE inhibitors, ARNIs and ARBs are all not tolerated, seek specialist advice and consider hydralazine in combination with nitrate.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.4.4 For people with angioedema after taking an ACE inhibitor, or who have symptoms of intolerance to ARNIs:",
+        "locator": "rec 1.4.4",
+        "start_char": 17367,
+        "end_char": 17476
+      },
+      {
+        "doc_id": "NG106",
+        "passage": "1.4.9 If ACE inhibitors, ARNIs and ARBs are not tolerated, seek specialist advice and consider hydralazine in combination with nitrate. [2010, amended 2025]",
+        "locator": "rec 1.4.9",
+        "start_char": 19274,
+        "end_char": 19430
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q048",
+    "question": "A patient with type 2 diabetes on a ketogenic diet is also due to start a statin for primary prevention. What should be checked before each treatment?",
+    "question_type": "multi_step",
+    "reference_answer": "Before starting an SGLT-2 inhibitor, check whether they are at increased risk of diabetic ketoacidosis, since a very low carbohydrate or ketogenic diet is a modifiable risk. Before starting a statin, perform baseline blood tests and clinical assessment, and treat comorbidities and secondary causes of dyslipidaemia.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.21.1 Before starting an SGLT-2 inhibitor, check whether the person may be at increased risk of diabetic ketoacidosis (DKA), for example if they:",
+        "locator": "NG28 rec 1.21.1",
+        "start_char": 103822,
+        "end_char": 103968
+      },
+      {
+        "doc_id": "NG238",
+        "passage": "1.6.6 Before starting statins, treat comorbidities and secondary causes of dyslipidaemia.",
+        "locator": "NG238 rec 1.6.6",
+        "start_char": 31270,
+        "end_char": 31359
+      }
+    ],
+    "notes": "Cross-guideline pre-treatment checks.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q049",
+    "question": "How does the advice on statin muscle side effects compare with the advice on checking for muscle symptoms beforehand?",
+    "question_type": "comparative",
+    "reference_answer": "People being offered a statin should be advised that the risk of muscle pain, tenderness or weakness is small and that severe muscle adverse effects such as rhabdomyolysis are extremely rare. Separately, before offering a statin the person should be asked about persistent generalised unexplained muscle symptoms, and creatine kinase measured if present.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.5.3 Advise people who are being offered a statin that the risk of muscle pain, tenderness or weakness associated with statin use is small and the rate of severe muscle adverse effects (rhabdomyolysis) because of statins is extremely low. [May 2023]",
+        "locator": "rec 1.5.3",
+        "start_char": 25618,
+        "end_char": 25868
+      },
+      {
+        "doc_id": "NG238",
+        "passage": "1.5.7 Before offering a statin, ask the person if they have had persistent generalised unexplained muscle symptoms (pain, tenderness or weakness), whether associated or not with previous lipid-lowering treatment. If they have, measure creatine kinase levels. If creatine kinase levels are:",
+        "locator": "rec 1.5.7",
+        "start_char": 27116,
+        "end_char": 27405
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q050",
+    "question": "How does monitoring of renal function differ before starting an ACE inhibitor for heart failure compared with during treatment?",
+    "question_type": "comparative",
+    "reference_answer": "Renal function and electrolytes should be measured before prescribing an ACE inhibitor, ARNI, ARB or MRA, and measured again during treatment for people taking any of these medicines.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.7.3 Before prescribing an angiotensin-converting enzyme (ACE) inhibitor, angiotensin receptor-neprilysin inhibitor (ARNI), angiotensin II receptor blocker (ARB) or mineralocorticoid receptor antagonist (MRA), measure the person's renal function and electrolyte levels. [2025]",
+        "locator": "rec 1.7.3",
+        "start_char": 24455,
+        "end_char": 24732
+      },
+      {
+        "doc_id": "NG106",
+        "passage": "1.7.4 If the person is taking an ACE inhibitor, ARNI, ARB or MRA, measure their renal function and electrolyte levels:",
+        "locator": "rec 1.7.4",
+        "start_char": 24734,
+        "end_char": 24852
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q051",
+    "question": "A patient's blood pressure is not controlled on an ACE inhibitor alone. What are the options for adding a second drug?",
+    "question_type": "comparative",
+    "reference_answer": "If hypertension is not controlled on step 1 treatment with an ACE inhibitor or ARB, offer the choice of one of the listed drugs in addition to step 1 treatment.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.41 If hypertension is not controlled in adults taking step 1 treatment of an ACE inhibitor or ARB, offer the choice of 1 of the following drugs in addition to step 1 treatment:",
+        "locator": "rec 1.4.41",
+        "start_char": 32219,
+        "end_char": 32399
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q052",
+    "question": "What should be done if hypertension is not diagnosed after investigation?",
+    "question_type": "comparative",
+    "reference_answer": "Measure clinic blood pressure at least every 5 years afterwards, and consider measuring more frequently if the reading is below 140/90 mmHg but still raised.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.2.10 If hypertension is not diagnosed, measure the person's clinic blood pressure at least every 5 years subsequently, and consider measuring it more frequently if the person's clinic blood pressure is less than 140/90 mmHg but still raised. [2011]",
+        "locator": "rec 1.2.10",
+        "start_char": 12476,
+        "end_char": 12726
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q053",
+    "question": "A patient has isolated systolic hypertension with a systolic reading of 168 mmHg. Should they be treated differently from someone with both systolic and diastolic elevation?",
+    "question_type": "comparative",
+    "reference_answer": "No - people with isolated systolic hypertension of 160 mmHg or more should be offered the same treatment as people with both raised systolic and diastolic blood pressure.",
+    "gold_passages": [
+      {
+        "doc_id": "NG136",
+        "passage": "1.4.28 Offer people with isolated systolic hypertension (systolic blood pressure 160 mmHg or more) the same treatment as people with both raised systolic and diastolic blood pressure. [2004]",
+        "locator": "rec 1.4.28",
+        "start_char": 27395,
+        "end_char": 27585
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q054",
+    "question": "Before starting a statin, what baseline work is needed, and what does the decision itself depend on?",
+    "question_type": "comparative",
+    "reference_answer": "Baseline blood tests and clinical assessment should be performed before starting statins, and the decision to start should be made after an informed discussion between the clinician and the person about the risks and benefits of statins.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.5.5 Before starting statins perform baseline blood tests and clinical assessment. Include all of the following in the assessment:",
+        "locator": "rec 1.5.5",
+        "start_char": 26333,
+        "end_char": 26464
+      },
+      {
+        "doc_id": "NG238",
+        "passage": "1.5.1 Make decisions about starting statin treatment after an informed discussion between the clinician and the person about the risks and benefits of statins. [May 2023, amended December 2023]",
+        "locator": "rec 1.5.1",
+        "start_char": 25121,
+        "end_char": 25314
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q055",
+    "question": "A patient started on a diabetes medicine that does not cause hypoglycaemia, but their HbA1c has climbed to 60 mmol/mol. What were they aiming for originally, and what happens now?",
+    "question_type": "multi_step",
+    "reference_answer": "They should originally have been supported to aim for an HbA1c of 48 mmol/mol (6.5%). Since their HbA1c is not adequately controlled by the initial medication regimen and has risen to 58 mmol/mol (7.5%) or higher, treatment should be reviewed and intensified.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.5.7 For adults whose type 2 diabetes is managed either by healthy living and diet, or healthy living and diet combined with an initial medication regimen that is not associated with hypoglycaemia (see the section on initial medicines), support them to aim for an HbA1c level of 48 mmol/mol (6.5%).",
+        "locator": "rec 1.5.7",
+        "start_char": 21126,
+        "end_char": 21425
+      },
+      {
+        "doc_id": "NG28",
+        "passage": "1.5.8 In adults with type 2 diabetes, if HbA1c levels are not adequately controlled by the initial medication regimen and rise to 58 mmol/mol (7.5%) or higher:",
+        "locator": "rec 1.5.8",
+        "start_char": 21566,
+        "end_char": 21725
+      }
+    ],
+    "notes": "The initial target and the escalation threshold are in separate recommendations.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q056",
+    "question": "An older patient with diabetes lives alone, is quite frail, and their HbA1c has come in below the level we were aiming for. They have had no hypos. Is there anything to think about?",
+    "question_type": "multi_step",
+    "reference_answer": "Encourage them to maintain it, since they are not experiencing hypoglycaemia, but be aware there are other possible reasons for a low HbA1c such as deteriorating renal function or sudden weight loss. Relaxing the target may also be considered on a case-by-case basis, particularly where the person is unlikely to achieve longer-term risk-reduction benefits or where tight control poses a risk.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.5.10 If adults with type 2 diabetes reach an HbA1c level that is lower than their target and they are not experiencing hypoglycaemia, encourage them to maintain it. Be aware that there are other possible reasons for a low HbA1c level, for example deteriorating renal function or sudden weight loss. [2015]",
+        "locator": "rec 1.5.10",
+        "start_char": 22741,
+        "end_char": 23048
+      },
+      {
+        "doc_id": "NG28",
+        "passage": "1.5.9 Consider relaxing the target HbA1c level (see recommendations 1.5.7 and 1.5.8 and NICE's patient decision aid on type 2 diabetes: agreeing someone's blood glucose (HbA1c) target) on a case-by-case basis and in discussion with adults with type 2 diabetes, with particular consideration for people who are older or frailer, if:",
+        "locator": "rec 1.5.9",
+        "start_char": 21924,
+        "end_char": 22255
+      }
+    ],
+    "notes": "Needs both the low-HbA1c guidance and the target-relaxation guidance.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q057",
+    "question": "A patient with type 2 diabetes wants to start testing their own blood sugar at home. Is that something they should be doing?",
+    "question_type": "comparative",
+    "reference_answer": "Not routinely - self-monitoring of capillary blood glucose should not be routinely offered to adults with type 2 diabetes unless one of the specified circumstances applies. If they do self-monitor, a structured assessment should be carried out at least annually.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.6.2 Do not routinely offer self-monitoring of capillary blood glucose levels for adults with type 2 diabetes unless:",
+        "locator": "rec 1.6.2",
+        "start_char": 23545,
+        "end_char": 23663
+      },
+      {
+        "doc_id": "NG28",
+        "passage": "1.6.5 If adults with type 2 diabetes are self-monitoring their capillary blood glucose levels, carry out a structured assessment at least annually. The assessment should include:",
+        "locator": "rec 1.6.5",
+        "start_char": 24433,
+        "end_char": 24611
+      }
+    ],
+    "notes": "Default position plus the follow-up requirement.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q058",
+    "question": "A patient with type 2 diabetes on several insulin injections a day is struggling to manage their monitoring without help from a carer. What could be offered?",
+    "question_type": "comparative",
+    "reference_answer": "Intermittently scanned continuous glucose monitoring (isCGM) should be offered to adults with insulin-treated type 2 diabetes who would otherwise need help from a care worker or healthcare professional to monitor their blood glucose. Real-time CGM may be considered as an alternative if available at the same or lower cost.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.7.2 Offer isCGM to adults with insulin-treated type 2 diabetes who would otherwise need help from a care worker or healthcare professional to monitor their blood glucose. [2022]",
+        "locator": "rec 1.7.2",
+        "start_char": 25717,
+        "end_char": 25896
+      },
+      {
+        "doc_id": "NG28",
+        "passage": "1.7.3 Consider real-time continuous glucose monitoring (rtCGM) as an alternative to isCGM for adults with insulin-treated type 2 diabetes if it is available for the same or lower cost. [2022]",
+        "locator": "rec 1.7.3",
+        "start_char": 25898,
+        "end_char": 26089
+      }
+    ],
+    "notes": "Offer versus consider; both needed.",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q059",
+    "question": "A patient's HbA1c result does not match their other glucose readings and nobody can explain the gap. What should happen?",
+    "question_type": "factual",
+    "reference_answer": "Investigate the unexplained discrepancy and seek advice from a team with specialist expertise in diabetes or clinical biochemistry.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.5.4 Investigate unexplained discrepancies between HbA1c and other glucose measurements. Seek advice from a team with specialist expertise in diabetes or clinical biochemistry. [2015]",
+        "locator": "rec 1.5.4",
+        "start_char": 19968,
+        "end_char": 20152
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  },
+  {
+    "question_id": "Q060",
+    "question": "A patient with type 2 diabetes is feeling very thirsty and passing urine constantly. What treatment should be considered?",
+    "question_type": "factual",
+    "reference_answer": "Consider insulin or a sulfonylurea, and review treatment when blood glucose is within the targets set for the person.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.8.1 If an adult with type 2 diabetes has symptoms of hyperglycaemia, consider insulin (see the section on insulin-based treatments) or a sulfonylurea, and review treatment when blood glucose is within the targets set for the person. [2015]",
+        "locator": "rec 1.8.1",
+        "start_char": 35113,
+        "end_char": 35354
+      }
+    ],
+    "notes": "",
+    "author": "Anuj Dubey (verified); drafted with AI assistance from source text",
+    "verified": true
+  }
+]

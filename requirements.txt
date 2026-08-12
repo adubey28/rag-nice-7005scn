@@ -1,0 +1,69 @@
+# ---------------------------------------------------------------------------
+# 7005SCN — RAG over NICE Clinical Guidelines
+#
+# Python 3.11.x. Not 3.12/3.13: faiss-cpu and torch wheels are best-tested there.
+#
+# RESOLVED AND VERIFIED 7 Aug 2026 by a clean `pip install --dry-run` followed
+# by running the full test suite and reproducing the verified chunk build. An
+# earlier version of this file pinned `datasets==3.2.0`, which is unsatisfiable:
+# ragas 0.4.3 requires datasets>=4.0.0. Pins below are only those that were
+# actually confirmed to resolve together.
+#
+# PINNING PHILOSOPHY
+# Exact pins where the value affects experimental output or where a version is
+# known to break (faiss, numpy, torch, sentence-transformers, langchain-community).
+# Ranges where the package is transitively constrained by ragas and over-pinning
+# causes resolver failure (datasets, langchain-core, langchain-openai).
+# ---------------------------------------------------------------------------
+
+# --- Document ingestion ---
+pypdf==5.1.0
+
+# --- Chunking ---
+# langchain-text-splitters 1.1.2 verified to produce byte-identical chunking to
+# the earlier 0.3.x pin: 547 chunks, mean 770.8 chars, 547/547 offsets exact.
+# langchain-core is NOT pinned: ragas 0.4.3 pulls the 1.x line, and pinning it
+# to 0.3.x makes the whole file unsatisfiable.
+langchain-text-splitters>=1.1,<2.0
+
+# --- Retrieval ---
+rank-bm25==0.2.2
+faiss-cpu==1.9.0
+numpy==1.26.4          # faiss-cpu 1.9.0 is built against numpy 1.x
+
+# --- Embeddings (local, CPU, no API cost) ---
+sentence-transformers==3.3.1
+torch==2.5.1
+
+# --- Generation: Gemini via Google AI Studio ---
+# 0.3.0 fails on models.list() with 501 UNIMPLEMENTED. <3.0.0 because a 3.x is
+# expected with breaking changes to Automatic Function Calling.
+google-genai>=2.16,<3.0.0
+
+# --- Evaluation harness ---
+# ragas 0.4.3 imports langchain_community.chat_models.vertexai, REMOVED in
+# langchain-community 0.4.x. 0.3.29 is the newest version that still works.
+ragas==0.4.3
+langchain-community==0.3.29
+langchain-openai>=1.0            # judge: DeepInfra via OpenAI-compatible API
+langchain-huggingface>=1.0       # local embeddings for answer relevancy
+# datasets is left to ragas to constrain (it requires >=4.0.0)
+
+# --- Utilities ---
+python-dotenv==1.0.1
+tenacity==9.0.0
+tqdm==4.67.1
+pandas==2.2.3
+
+# --- Analysis (Stage 6) ---
+scipy>=1.11            # Wilcoxon signed-rank, effect sizes
+matplotlib>=3.8
+
+# --- Test suite (the acceptance gate: `pytest tests/ -q` must show 0 failed) ---
+# No expected count is stated: it changes whenever a script or test is added,
+# and a stale number teaches you to ignore the real one. The current count is
+# recorded in EVIDENCE.md.
+# reportlab builds the synthetic NICE-like PDF used by tests/test_end_to_end.py,
+# which lets the whole chain be exercised offline with no API key.
+pytest==8.3.4
+reportlab==4.2.5

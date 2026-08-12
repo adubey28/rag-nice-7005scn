@@ -1,0 +1,191 @@
+[
+  {
+    "question_id": "Q001",
+    "paraphrases": [
+      "I'm managing my diabetes with diet only - what blood sugar number should I be trying to hit?",
+      "Diet-controlled T2DM. HbA1c goal?"
+    ]
+  },
+  {
+    "question_id": "Q003",
+    "paraphrases": [
+      "My son was told he has type 2 diabetes and he's only 34. What medication will they put him on?",
+      "T2DM diagnosed age 34. Initial pharmacotherapy?"
+    ]
+  },
+  {
+    "question_id": "Q007",
+    "paraphrases": [
+      "The nurse got 156 over 94 at my appointment. Do I actually have high blood pressure?",
+      "Clinic BP 156/94. Next step to confirm diagnosis?"
+    ]
+  },
+  {
+    "question_id": "Q010",
+    "paraphrases": [
+      "I'm 74 and they've told me I have high blood pressure. What number are we trying to get it down to?",
+      "Age 74, hypertensive. Clinic BP treatment target?"
+    ]
+  },
+  {
+    "question_id": "Q012",
+    "paraphrases": [
+      "I've had this tickly cough ever since I started the tablets for my blood pressure. Can I take something else?",
+      "Dry cough on ACE inhibitor. Alternative agent?"
+    ]
+  },
+  {
+    "question_id": "Q013",
+    "paraphrases": [
+      "My ankles have puffed up since starting the new blood pressure tablet and I can't put up with it.",
+      "Intolerable oedema on CCB. Switch to what?"
+    ]
+  },
+  {
+    "question_id": "Q020",
+    "paraphrases": [
+      "When I stand up my blood pressure reading falls by about 24 points. Should anyone be worried?",
+      "Postural systolic drop 24 mmHg. Actionable?"
+    ]
+  },
+  {
+    "question_id": "Q026",
+    "paraphrases": [
+      "If I'm going on treatment to stop me having a heart attack, how much does my cholesterol need to come down?",
+      "Primary prevention. Target non-HDL reduction?"
+    ]
+  },
+  {
+    "question_id": "Q030",
+    "paraphrases": [
+      "I'm 29 and trying for a baby. Is there any reason I shouldn't go on a statin?",
+      "Woman of childbearing potential. Statin contraindication?"
+    ]
+  },
+  {
+    "question_id": "Q033",
+    "paraphrases": [
+      "My blood test for heart failure came back at 2,400. How soon will I be seen?",
+      "NT-proBNP 2400 ng/L. Referral urgency?"
+    ]
+  },
+  {
+    "question_id": "Q036",
+    "paraphrases": [
+      "My heart isn't pumping properly. What tablets will they start me on?",
+      "HFrEF. First-line drug combination?"
+    ]
+  },
+  {
+    "question_id": "Q042",
+    "paraphrases": [
+      "I'm on a heart failure tablet and my potassium came back at 5.8. Is that a problem?",
+      "K+ 5.8 mmol/L on ACE inhibitor. Action required?"
+    ]
+  },
+  {
+    "question_id": "Q044",
+    "paraphrases": [
+      "They couldn't get a clear picture of my heart on the scan. What happens now?",
+      "Poor echo image quality. Alternative imaging?"
+    ]
+  },
+  {
+    "question_id": "Q045",
+    "paraphrases": [
+      "I've got type 2 diabetes controlled by diet and they've just told me my blood pressure is high too. What two numbers should I be watching?",
+      "Age 62, diet-controlled T2DM plus new hypertension. HbA1c and BP targets?"
+    ]
+  },
+  {
+    "question_id": "Q047",
+    "paraphrases": [
+      "I've got high blood pressure and a weak heart. Does that change which water tablet I get?",
+      "Hypertension with heart failure. Diuretic class, and HF regimen?"
+    ]
+  },
+  {
+    "question_id": "Q005",
+    "paraphrases": [
+      "I eat very low carb - keto basically. Anything to sort out before I start this new diabetes tablet?",
+      "Ketogenic diet, commencing SGLT-2 inhibitor. Pre-treatment considerations?"
+    ]
+  },
+  {
+    "question_id": "Q015",
+    "paraphrases": [
+      "I'm on three different blood pressure tablets at full dose and it's still high. What now?",
+      "BP uncontrolled on 3 agents at optimal dose. Classification and next step?"
+    ]
+  },
+  {
+    "question_id": "Q029",
+    "paraphrases": [
+      "My legs have ached for years and now they want me on a cholesterol tablet. Does that matter?",
+      "Chronic unexplained myalgia, statin planned. Pre-treatment check?"
+    ]
+  },
+  {
+    "question_id": "Q053",
+    "paraphrases": [
+      "What's the difference between the 24-hour monitor and doing it myself at home?",
+      "ABPM versus HBPM for diagnostic confirmation - when is each used?"
+    ]
+  },
+  {
+    "question_id": "Q056",
+    "paraphrases": [
+      "Do they check my kidneys just at the start of the heart failure tablets or all the way through?",
+      "Renal monitoring for ACE inhibitor - baseline only or ongoing?"
+    ]
+  },
+  {
+    "question_id": "Q059",
+    "paraphrases": [
+      "Only my top blood pressure number is high, at 168. Is my treatment different?",
+      "Isolated systolic hypertension 168 mmHg. Same management?"
+    ]
+  },
+  {
+    "question_id": "Q017",
+    "paraphrases": [
+      "One patient is 58 with a fairly low heart risk score, another is 84 with a reading of 154 over 88. Do either of them need tablets?",
+      "Stage 1 hypertension: age 58 QRISK3 8%, versus age 84 clinic 154/88. Treat either?"
+    ]
+  },
+  {
+    "question_id": "Q018",
+    "paraphrases": [
+      "My dad's 83 and I'm 62, we're both on blood pressure treatment. Are we aiming for the same reading?",
+      "Hypertension targets: age 62 versus age 83. Same or different?"
+    ]
+  },
+  {
+    "question_id": "Q035",
+    "paraphrases": [
+      "Two people are being checked for heart failure, one's blood test is 2,400 and the other's is 900. Who gets seen first?",
+      "NT-proBNP 2400 versus 900 ng/L. Comparative referral urgency?"
+    ]
+  },
+  {
+    "question_id": "Q039",
+    "paraphrases": [
+      "Does it matter whether the heart is pumping badly or pumping normally when they choose the tablets?",
+      "Drug regimen: HFrEF versus HFpEF - does it differ?"
+    ]
+  },
+  {
+    "question_id": "Q048",
+    "paraphrases": [
+      "Diagnosed with diabetes young, and they're also looking at my heart risk. What do I go on and how far does my cholesterol need to drop?",
+      "Early-onset T2DM plus primary CVD prevention. Initial agents and lipid target?"
+    ]
+  },
+  {
+    "question_id": "Q051",
+    "paraphrases": [
+      "My lips swelled up on the first heart tablet and I couldn't tolerate the replacement either. Is there anything left?",
+      "Angioedema on ACE inhibitor, subsequent ARNI intolerance. Remaining options?"
+    ]
+  }
+]

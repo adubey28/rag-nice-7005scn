@@ -1,0 +1,440 @@
+[
+  {
+    "question_id": "Q023",
+    "question": "Which tool should be used to estimate someone's 10-year cardiovascular risk, and does it apply to people with type 2 diabetes?",
+    "question_type": "comparative",
+    "reference_answer": "QRISK3, for people aged between 25 and 84 without CVD, and it should also be used for people with type 2 diabetes aged between 25 and 84.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.1.7 Use the QRISK3 tool to calculate the estimated CVD risk within the next 10 years for people aged between 25 and 84 without CVD. [May 2023]",
+        "locator": "rec 1.1.7",
+        "start_char": 6309,
+        "end_char": 6453
+      },
+      {
+        "doc_id": "NG238",
+        "passage": "1.1.8 Use the QRISK3 tool for people with type 2 diabetes aged between 25 and 84",
+        "locator": "rec 1.1.8",
+        "start_char": 6455,
+        "end_char": 6535
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q024",
+    "question": "A patient's total cholesterol comes back at 9.4 mmol/litre. There is no family history of early heart disease. Does that matter?",
+    "question_type": "factual",
+    "reference_answer": "No - specialist assessment should be arranged for a total cholesterol above 9.0 mmol/litre even without a first-degree family history of premature coronary heart disease.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.4.5 Arrange for specialist assessment of people with a total blood cholesterol level of more than 9.0 mmol per litre or a non-HDL cholesterol level of more than 7.5 mmol per litre even in the absence of a first-degree family history of premature coronary heart disease. [2014]",
+        "locator": "rec 1.4.5",
+        "start_char": 23873,
+        "end_char": 24151
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q025",
+    "question": "A patient has a triglyceride level of 24 mmol/litre and drinks very little alcohol. What should happen?",
+    "question_type": "factual",
+    "reference_answer": "Refer for urgent specialist review.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.4.6 Refer for urgent specialist review if a person has a triglyceride level of more than 20 mmol per litre that is not a result of excess alcohol intake or poor glycaemic control. [2014]",
+        "locator": "rec 1.4.6",
+        "start_char": 24153,
+        "end_char": 24341
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q026",
+    "question": "How much should non-HDL cholesterol be reduced by when treating someone to prevent a first cardiovascular event?",
+    "question_type": "factual",
+    "reference_answer": "Aim for a greater than 40% reduction in non-HDL cholesterol.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.6.1 For primary prevention of CVD aim for a greater than 40% reduction in non-HDL cholesterol. [May 2023]",
+        "locator": "rec 1.6.1",
+        "start_char": 30291,
+        "end_char": 30398
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q027",
+    "question": "A patient's liver transaminases are raised at twice the upper limit of normal. Does this rule out starting a statin?",
+    "question_type": "factual",
+    "reference_answer": "No - people with transaminase levels that are raised but less than 3 times the upper limit of normal should not routinely be excluded from statin treatment.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.5.6 Do not routinely exclude from statin treatment people who have liver transaminase levels that are raised but are less than 3 times the upper limit of normal. [May 2023]",
+        "locator": "rec 1.5.6",
+        "start_char": 26940,
+        "end_char": 27114
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q028",
+    "question": "What proportion of energy intake should come from fat, and specifically from saturated fat, in someone at high cardiovascular risk?",
+    "question_type": "factual",
+    "reference_answer": "Total fat intake should be 30% or less of total energy intake and saturated fats 7% or less, with saturated fats replaced where possible by mono-unsaturated and polyunsaturated fats.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.3.2 Advise people at high risk of or with CVD to eat a diet in which total fat intake is 30% or less of total energy intake, saturated fats are 7% or less of total energy intake, and where possible saturated fats are replaced by mono-unsaturated and polyunsaturated fats. [May 2023]",
+        "locator": "rec 1.3.2",
+        "start_char": 19522,
+        "end_char": 19806
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q029",
+    "question": "A patient reports longstanding unexplained muscle aching and is about to be started on a statin. What should be done first?",
+    "question_type": "comparative",
+    "reference_answer": "Ask about persistent generalised unexplained muscle symptoms and, if present, measure creatine kinase levels before offering the statin.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.5.7 Before offering a statin, ask the person if they have had persistent generalised unexplained muscle symptoms (pain, tenderness or weakness), whether associated or not with previous lipid-lowering treatment. If they have, measure creatine kinase levels. If creatine kinase levels are:",
+        "locator": "rec 1.5.7",
+        "start_char": 27116,
+        "end_char": 27405
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q030",
+    "question": "A woman of childbearing age is being considered for a statin. Is there anything that would prevent this?",
+    "question_type": "factual",
+    "reference_answer": "Yes - statins are contraindicated in pregnancy because of the risk to the unborn child.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.5.9 Be aware that statins are contraindicated in pregnancy because of the risk to the unborn child of exposure to statins. [2014, amended May 2023]",
+        "locator": "rec 1.5.9",
+        "start_char": 29535,
+        "end_char": 29684
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q031",
+    "question": "A patient's cholesterol is raised and they also have untreated hypothyroidism. What should be addressed before considering a referral or starting treatment?",
+    "question_type": "comparative",
+    "reference_answer": "Exclude common secondary causes of dyslipidaemia such as excess alcohol, uncontrolled diabetes, hypothyroidism, liver disease and nephrotic syndrome before referring for specialist review, and treat comorbidities and secondary causes before starting statins.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.4.3 Exclude possible common secondary causes of dyslipidaemia (such as excess alcohol intake, uncontrolled diabetes, hypothyroidism, liver disease and nephrotic syndrome) before referring for specialist review. [2014]",
+        "locator": "rec 1.4.3",
+        "start_char": 23459,
+        "end_char": 23678
+      },
+      {
+        "doc_id": "NG238",
+        "passage": "1.6.6 Before starting statins, treat comorbidities and secondary causes of dyslipidaemia.",
+        "locator": "rec 1.6.6",
+        "start_char": 31270,
+        "end_char": 31359
+      }
+    ],
+    "notes": "Two separate recommendations cover exclusion before referral and treatment before statins.",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q032",
+    "question": "A 37-year-old has several cardiovascular risk factors but a 10-year QRISK3 score of only 6%. Is there anything else that could inform the discussion?",
+    "question_type": "comparative",
+    "reference_answer": "Consider using a lifetime risk tool such as QRISK3-lifetime, which is particularly suggested for people with a 10-year QRISK3 score below 10% and people under 40 who have CVD risk factors.",
+    "gold_passages": [
+      {
+        "doc_id": "NG238",
+        "passage": "1.1.16 Consider using a lifetime risk tool such as QRISK3-lifetime to inform discussions on CVD risk and to motivate lifestyle changes, particularly for people with a 10-year QRISK3 score less than 10%, and people under 40 who have CVD risk factors. [May 2023]",
+        "locator": "rec 1.1.16",
+        "start_char": 14909,
+        "end_char": 15169
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q033",
+    "question": "A patient with suspected heart failure has an NT-proBNP of 2,400 ng/litre. How quickly should they be seen?",
+    "question_type": "factual",
+    "reference_answer": "Refer urgently for specialist assessment and transthoracic echocardiography within 2 weeks.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.2.3 Because very high levels of NT-proBNP carry a poor prognosis, refer people with suspected heart failure and an NT-proBNP level more than 2,000 nanogram per litre (236 picomole per litre) urgently, to have specialist assessment and transthoracic echocardiography within 2 weeks. [2018]",
+        "locator": "rec 1.2.3",
+        "start_char": 11393,
+        "end_char": 11683
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q034",
+    "question": "A patient with suspected heart failure has an NT-proBNP of 900 ng/litre. What is the referral timeframe?",
+    "question_type": "factual",
+    "reference_answer": "Specialist assessment and transthoracic echocardiography within 6 weeks.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.2.4 Refer people with suspected heart failure and an NT-proBNP level between 400 and 2,000 nanogram per litre (47 to 236 pmol per litre) to have specialist assessment and transthoracic echocardiography within 6 weeks. [2018]",
+        "locator": "rec 1.2.4",
+        "start_char": 11685,
+        "end_char": 11911
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q035",
+    "question": "Two patients present with suspected heart failure - one has an NT-proBNP of 2,400 ng/litre and the other 900 ng/litre. Should they be managed with the same urgency?",
+    "question_type": "multi_step",
+    "reference_answer": "No. The patient with a level above 2,000 ng/litre should be referred urgently for specialist assessment and echocardiography within 2 weeks, while the patient with a level between 400 and 2,000 ng/litre should be seen within 6 weeks.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.2.3 Because very high levels of NT-proBNP carry a poor prognosis, refer people with suspected heart failure and an NT-proBNP level more than 2,000 nanogram per litre (236 picomole per litre) urgently, to have specialist assessment and transthoracic echocardiography within 2 weeks. [2018]",
+        "locator": "rec 1.2.3",
+        "start_char": 11393,
+        "end_char": 11683
+      },
+      {
+        "doc_id": "NG106",
+        "passage": "1.2.4 Refer people with suspected heart failure and an NT-proBNP level between 400 and 2,000 nanogram per litre (47 to 236 pmol per litre) to have specialist assessment and transthoracic echocardiography within 6 weeks. [2018]",
+        "locator": "rec 1.2.4",
+        "start_char": 11685,
+        "end_char": 11911
+      }
+    ],
+    "notes": "Two thresholds in separate recommendations; neither alone answers the comparison.",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q036",
+    "question": "What four medicines should someone with heart failure and a reduced ejection fraction be started on?",
+    "question_type": "factual",
+    "reference_answer": "An ACE inhibitor, a beta-blocker, a mineralocorticoid receptor antagonist (MRA) and an SGLT2 inhibitor.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.4.1 Offer an angiotensin-converting enzyme (ACE) inhibitor, a beta-blocker, a mineralocorticoid receptor antagonist (MRA) and a sodium-glucose cotransporter-2 (SGLT2) inhibitor to people with heart failure with reduced ejection fraction. [2025]",
+        "locator": "rec 1.4.1",
+        "start_char": 16618,
+        "end_char": 16864
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q037",
+    "question": "A patient with reduced ejection fraction is on maximum tolerated doses of all four recommended medicines but still has symptoms. What can be considered?",
+    "question_type": "comparative",
+    "reference_answer": "Consider switching the ACE inhibitor to an angiotensin receptor-neprilysin inhibitor (ARNI).",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.4.2 For people on the maximum tolerated dose of each of the 4 medicines who continue to have symptoms of heart failure, consider switching the ACE inhibitor to an angiotensin receptor-neprilysin inhibitor (AR",
+        "locator": "rec 1.4.2",
+        "start_char": 16866,
+        "end_char": 17076
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q038",
+    "question": "A patient with reduced ejection fraction develops an intolerance to ACE inhibitors, but not angioedema. What should they be offered instead?",
+    "question_type": "factual",
+    "reference_answer": "An ARNI, beta-blocker, MRA and SGLT2 inhibitor.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.4.3 For people with heart failure with reduced ejection fraction who have symptoms of intolerance to ACE inhibitors (other than angioedema), offer an ARNI, betablocker, MRA and SGLT2 inhibitor. [2025]",
+        "locator": "rec 1.4.3",
+        "start_char": 17163,
+        "end_char": 17365
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q039",
+    "question": "Does the recommended drug combination differ between heart failure with reduced ejection fraction and heart failure with preserved ejection fraction?",
+    "question_type": "multi_step",
+    "reference_answer": "Yes. For reduced ejection fraction, an ACE inhibitor, beta-blocker, MRA and SGLT2 inhibitor should be offered. For preserved ejection fraction, an MRA and an SGLT2 inhibitor should be considered.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.4.1 Offer an angiotensin-converting enzyme (ACE) inhibitor, a beta-blocker, a mineralocorticoid receptor antagonist (MRA) and a sodium-glucose cotransporter-2 (SGLT2) inhibitor to people with heart failure with reduced ejection fraction. [2025]",
+        "locator": "rec 1.4.1",
+        "start_char": 16618,
+        "end_char": 16864
+      },
+      {
+        "doc_id": "NG106",
+        "passage": "1.5.4 Consider an MRA and an sodium-glucose cotransporter-2 (SGLT2) inhibitor for treating heart failure with preserved ejection fraction. See also re",
+        "locator": "rec 1.5.4",
+        "start_char": 22037,
+        "end_char": 22187
+      }
+    ],
+    "notes": "Requires both ejection-fraction categories.",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q040",
+    "question": "How does treatment for mildly reduced ejection fraction compare with treatment for reduced ejection fraction?",
+    "question_type": "multi_step",
+    "reference_answer": "Both involve an ACE inhibitor, a beta-blocker, an MRA and an SGLT2 inhibitor, but for reduced ejection fraction these should be offered, whereas for mildly reduced ejection fraction they should be considered.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.4.1 Offer an angiotensin-converting enzyme (ACE) inhibitor, a beta-blocker, a mineralocorticoid receptor antagonist (MRA) and a sodium-glucose cotransporter-2 (SGLT2) inhibitor to people with heart failure with reduced ejection fraction. [2025]",
+        "locator": "rec 1.4.1",
+        "start_char": 16618,
+        "end_char": 16864
+      },
+      {
+        "doc_id": "NG106",
+        "passage": "1.5.1 Consider an angiotensin-converting enzyme (ACE) inhibitor, a beta-blocker, a mineralocorticoid receptor antagonist (MRA) and a sodium-glucose cotransporter-2 (SGLT2) inhibitor for treating heart failure with mildly reduced ejection fraction. See also recommendation 1.5.3. [2025]",
+        "locator": "rec 1.5.1",
+        "start_char": 20686,
+        "end_char": 20971
+      }
+    ],
+    "notes": "The distinction is offer vs consider; both passages needed.",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q041",
+    "question": "What should be measured before prescribing an ACE inhibitor or an MRA for heart failure?",
+    "question_type": "factual",
+    "reference_answer": "The person's renal function and electrolyte levels.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.7.3 Before prescribing an angiotensin-converting enzyme (ACE) inhibitor, angiotensin receptor-neprilysin inhibitor (ARNI), angiotensin II receptor blocker (ARB) or mineralocorticoid receptor antagonist (MRA), measure the person's renal function and electrolyte levels. [2025]",
+        "locator": "rec 1.7.3",
+        "start_char": 24455,
+        "end_char": 24732
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q042",
+    "question": "A patient on an ACE inhibitor for heart failure has a potassium of 5.8 mmol/litre. Is that a level requiring action?",
+    "question_type": "factual",
+    "reference_answer": "Yes - if potassium rises above 5.5 mmol per litre (or serum creatinine increases by more than 50%), local guidelines should be followed.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.7.5 If the person's serum creatinine level increases by more than 50% or their potassium concentration increases to more than 5.5 mmol per litre, follow local guidelines. [2025]",
+        "locator": "rec 1.7.5",
+        "start_char": 25067,
+        "end_char": 25246
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q043",
+    "question": "A 79-year-old with heart failure also has COPD and peripheral vascular disease. Should a beta-blocker be avoided?",
+    "question_type": "comparative",
+    "reference_answer": "No - treatment with a beta-blocker should not be withheld solely because of age or the presence of peripheral vascular disease, erectile dysfunction, diabetes, interstitial pulmonary disease or COPD. A 12-lead ECG should be used to assess heart rhythm, rate and conduction abnormalities before deciding whether to prescribe one.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.7.9 Do not withhold treatment with a beta-blocker solely because of age or the presence of peripheral vascular disease, erectile dysfunction, diabetes, interstitial pulmonary disease or chronic obstructive pulmonary disease. [2010]",
+        "locator": "rec 1.7.9",
+        "start_char": 26262,
+        "end_char": 26495
+      },
+      {
+        "doc_id": "NG106",
+        "passage": "1.7.10 Assess for heart rhythm, heart rate and conduction abnormalities using a 12-lead ECG before deciding whether to prescribe a beta-blocker. [2025]",
+        "locator": "rec 1.7.10",
+        "start_char": 26497,
+        "end_char": 26648
+      }
+    ],
+    "notes": "Contraindication myth plus the required pre-check.",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q044",
+    "question": "The echocardiogram image quality is poor in a patient being assessed for heart failure. What are the alternatives?",
+    "question_type": "factual",
+    "reference_answer": "Alternative imaging methods such as radionuclide angiography (multigated acquisition scanning), cardiac MRI or transoesophageal echocardiography.",
+    "gold_passages": [
+      {
+        "doc_id": "NG106",
+        "passage": "1.2.11 Think about alternative methods of imaging the heart (for example, radionuclide angiography [multigated acquisition scanning], cardiac MRI or transoesophageal echocardiography) if a poor image is produced by transthoracic echocardiography. [2003, amended 2018]",
+        "locator": "rec 1.2.11",
+        "start_char": 13846,
+        "end_char": 14113
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  }
+]

@@ -1,0 +1,124 @@
+[
+  {
+    "question_id": "Q001",
+    "question": "A patient's type 2 diabetes is being managed with diet and lifestyle changes only. What HbA1c should they be aiming for?",
+    "question_type": "factual",
+    "reference_answer": "48 mmol/mol (6.5%).",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.5.7 For adults whose type 2 diabetes is managed either by healthy living and diet, or healthy living and diet combined with an initial medication regimen that is not associated with hypoglycaemia (see the section on initial medicines), support them to aim for an HbA1c level of 48 mmol/mol (6.5%).",
+        "locator": "rec 1.5.7",
+        "start_char": 21126,
+        "end_char": 21425
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q002",
+    "question": "How high does HbA1c have to get before treatment needs intensifying in someone already on a single glucose-lowering drug?",
+    "question_type": "factual",
+    "reference_answer": "58 mmol/mol (7.5%) or above.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.5.8 In adults with type 2 diabetes, if HbA1c levels are not adequately controlled by the initial medication regimen and rise to 58 mmol/mol (7.5%) or higher:",
+        "locator": "rec 1.5.8",
+        "start_char": 21566,
+        "end_char": 21725
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q003",
+    "question": "A patient is diagnosed with type 2 diabetes in their thirties. What should they be started on?",
+    "question_type": "factual",
+    "reference_answer": "Modified-release metformin and an SGLT-2 inhibitor.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.16.1 For adults with early onset type 2 diabetes, offer modified-release metformin and an SGLT-2 inhibitor, and consider adding either:",
+        "locator": "rec 1.16.1",
+        "start_char": 78352,
+        "end_char": 78489
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q004",
+    "question": "Is it acceptable to prescribe a GLP-1 receptor agonist alongside a DPP-4 inhibitor?",
+    "question_type": "factual",
+    "reference_answer": "No - these two should not be given together.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.24.6 Do not offer both a GLP-1 receptor agonist or tirzepatide and a DPP-4 inhibitor together to treat type 2 diabetes. [2026]",
+        "locator": "rec 1.24.6",
+        "start_char": 115038,
+        "end_char": 115166
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q005",
+    "question": "A patient follows a ketogenic diet and is due to start an SGLT-2 inhibitor. Is there anything to consider first?",
+    "question_type": "comparative",
+    "reference_answer": "Yes. Check whether they are at increased risk of diabetic ketoacidosis before starting. A very low carbohydrate or ketogenic diet is a modifiable risk, and treatment may need to be delayed until the diet has changed.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.21.1 Before starting an SGLT-2 inhibitor, check whether the person may be at increased risk of diabetic ketoacidosis (DKA), for example if they:",
+        "locator": "rec 1.21.1",
+        "start_char": 103822,
+        "end_char": 103968
+      },
+      {
+        "doc_id": "NG28",
+        "passage": "1.21.2 Address modifiable risks of DKA before starting an SGLT-2 inhibitor. For example, people who are following a very low carbohydrate or ketogenic diet may need to delay treatment until they have changed their diet. [2022]",
+        "locator": "rec 1.21.2",
+        "start_char": 104179,
+        "end_char": 104405
+      }
+    ],
+    "notes": "",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  },
+  {
+    "question_id": "Q006",
+    "question": "A patient is on both an SGLT-2 inhibitor and a GLP-1 receptor agonist but has not reached their HbA1c target. Should either drug be stopped?",
+    "question_type": "multi_step",
+    "reference_answer": "The GLP-1 receptor agonist should be stopped if it is not helping reach the target and is not being taken for cardiovascular benefit. The SGLT-2 inhibitor can be continued despite the target not being met, because of its cardiovascular and renal benefits.",
+    "gold_passages": [
+      {
+        "doc_id": "NG28",
+        "passage": "1.24.2 Consider continuing SGLT-2 inhibitors for their cardiovascular or renal benefits, even if they do not help the person reach their individualised glycaemic targets. [2026]",
+        "locator": "rec 1.24.2",
+        "start_char": 114425,
+        "end_char": 114602
+      },
+      {
+        "doc_id": "NG28",
+        "passage": "1.24.4 Stop GLP-1 receptor agonists or tirzepatide if they do not help the person reach their individualised glycaemic targets and they are not being taken for their cardiovascular benefits. [2026]",
+        "locator": "rec 1.24.4",
+        "start_char": 114722,
+        "end_char": 114919
+      }
+    ],
+    "notes": "Requires both passages: neither alone supports the contrast.",
+    "author": "LLM draft - REQUIRES HUMAN VERIFICATION",
+    "verified": false
+  }
+]

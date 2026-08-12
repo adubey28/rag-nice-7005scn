@@ -1,0 +1,21 @@
+# Environment and secrets - never commit
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Copyrighted corpus - see SUBMISSION.md for download URLs and hashes
+data/raw/*.pdf
+
+# Derived artefacts, rebuilt by scripts/build_all.py
+data/index/*.faiss
+data/interim/
+
+# NOTE: outputs/ is deliberately NOT ignored in this package.
+# The results are the evidence for the dissertation, and outputs/ragas_cache/
+# lets any reader re-derive every reported number with no API key and no cost.
+.DS_Store

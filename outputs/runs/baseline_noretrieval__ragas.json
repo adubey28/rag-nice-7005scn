@@ -1,0 +1,422 @@
+[
+  {
+    "question_id": "Q001",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8626822122482986,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q002",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.804365856472027,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q003",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.9315500875060442,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q004",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8219961513886375,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q005",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8060683257235377,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q006",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.7991857216871728,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q007",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.7448105611597148,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q008",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8596217826972102,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q009",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.7553295798357501,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q010",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8881083631229952,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q011",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.7766627414463928,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q012",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.9177638169391834,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q013",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.6695913348301142,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q014",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.6689656668691114,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q015",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8096016899750719,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q016",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8526801925571096,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q017",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.577247365737367,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q018",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.9037231854947064,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q019",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8198431026700748,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q020",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8258381483865951,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q021",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8863667601364381,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q022",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8379772180577247,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q023",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.7152854092966329,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q024",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8237112214234498,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q025",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.9718078490158568,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q026",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.7670789287597186,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q027",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.7950123251401738,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q028",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8144716293285148,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q029",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8601217488886238,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q030",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.7707768157956453,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q031",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.5,
+    "answer_relevancy": 0.8082840732841065,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q032",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8519759421497937,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q033",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.810554707626908,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q034",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8409232755770484,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q035",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8207209747481118,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q036",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.7296603831189715,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q037",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8815560637413027,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q038",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8864412966576797,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q039",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.9461197794344699,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q040",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8792898060950366,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q041",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8547032516781479,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q042",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8415361977840421,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q043",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.7166113791962325,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q044",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.7685755986793064,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q045",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.7301024219071924,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q046",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.7452341230508858,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q047",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8432688161139085,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q048",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.9185482168313728,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q049",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8076755447442552,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q050",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.9356199473101349,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q051",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.920539909044375,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q052",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8954186864552848,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q053",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8999039213934757,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q054",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8318358851614341,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q055",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8259975524903597,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q056",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.78150335071899,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q057",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.7800848306264023,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q058",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.815202655514215,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q059",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.8918554332606655,
+    "from_cache": true
+  },
+  {
+    "question_id": "Q060",
+    "condition": "baseline_noretrieval",
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.7441667750871767,
+    "from_cache": true
+  }
+]

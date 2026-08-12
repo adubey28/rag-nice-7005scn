@@ -1,0 +1,46 @@
+{
+  "documents": {
+    "NG28": {
+      "pages": 131,
+      "chars_clean": 186906,
+      "retained_pct": 87.6,
+      "sha256": "1a3be64ff05a3a01f50487eac05a3b6a61743fbb55584e78088c352b7cbc2e5b"
+    },
+    "NG136": {
+      "pages": 52,
+      "chars_clean": 87144,
+      "retained_pct": 88.6,
+      "sha256": "07f00ff626bb0aa930912fdf66cb0d05d2be6fca69469dbbce66233b063f6348"
+    },
+    "NG238": {
+      "pages": 52,
+      "chars_clean": 74603,
+      "retained_pct": 85.3,
+      "sha256": "ca66058149bff1c48dc33dbbb44323edcbbcfb55cfe082d9d4dd3f4dd6d41929"
+    },
+    "NG106": {
+      "pages": 39,
+      "chars_clean": 54049,
+      "retained_pct": 86.4,
+      "sha256": "6e344e58fe587d67ed17f4abb3a5b538f4bd72fcfcabea1dd393a462ea707841"
+    }
+  },
+  "indexes": {
+    "fixed": {
+      "index_name": "NG106-NG136-NG238-NG28__fixed_1000_150",
+      "n_chunks": 547,
+      "build_seconds": 143.1
+    },
+    "semantic": {
+      "index_name": "NG106-NG136-NG238-NG28__semantic_p85_b1_m2000",
+      "n_chunks": 509,
+      "build_seconds": 393.1
+    }
+  },
+  "docs": [
+    "NG28",
+    "NG136",
+    "NG238",
+    "NG106"
+  ]
+}
