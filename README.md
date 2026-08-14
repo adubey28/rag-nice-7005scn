@@ -257,8 +257,3 @@ rag-nice/
 └── outputs/                     # runs, score cache, figures, analysis
 ```
 
-## 6. Note on AI assistance
-
-An AI coding assistant was used during development. The research design,
-hypotheses, evaluation dataset and all experimental execution are the author's
-own. The full declaration is given in Section 7 of the project report.
